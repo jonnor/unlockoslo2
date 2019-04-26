@@ -1,0 +1,70 @@
+*
+*******************************************
+*
+*BZX384-C3V3
+*
+*NXP Semiconductors
+*
+*Voltage regulator diode
+*
+*
+*
+*
+* 
+*VFmax = 1,1V @ IF = 100mA 
+*IRmax = 5µA  @ VR = 1V
+*
+*VZmax = 3,5V @ IZ = 5mA
+*
+*
+*
+*
+* 
+*
+*
+*Package pinning does not match Spice model pinning.
+*Package: SOD323
+*
+*Package Pin 1: Cathode 
+*Package Pin 2: Anode
+*
+*
+*
+*Extraction date (week/year): 05/2016
+*Simulator: SPICE2
+*
+*******************************************
+*#
+.SUBCKT BZX384-C3V3 1 2
+ R1 1 2 1E+009   
+ D1 1 2  
+ + DIODE1
+ D2 3 1  
+ + DIODE2
+ VZ 2 3 0.0001   
+*
+*The resistor R1, the diode D2 and   
+*VZ do not reflect  
+*physical devices but improve 
+*only modeling in the reverse 
+*mode of operation.
+*
+ .MODEL DIODE1 D 
+ + IS = 1.5E-012 
+ + N = 1.35      
+ + BV = 3.8      
+ + IBV = 0.005   
+ + RS = 0.35     
+ + CJO = 1.62E-010       
+ + VJ = 0.7      
+ + M = 0.322     
+ + FC = 0.5      
+ + TT = 0
+ + EG = 1.1      
+ + XTI = 3       
+ .MODEL DIODE2 D 
+ + IS = 1E-009   
+ + N = 7.4       
+ + RS = 62       
+ .ENDS   
+*

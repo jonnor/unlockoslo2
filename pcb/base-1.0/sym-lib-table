@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name base-1.0-rescue)(type Legacy)(uri ${KIPRJMOD}/base-1.0-rescue.lib)(options "")(descr ""))
+  (lib (name tps54202)(type Legacy)(uri ${KIPRJMOD}/symbols/tps54202.lib)(options "")(descr ""))
+  (lib (name unlockoslo)(type Legacy)(uri ${KIPRJMOD}/symbols/unlockoslo.lib)(options "")(descr ""))
+)
