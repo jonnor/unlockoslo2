@@ -1,0 +1,524 @@
+EESchema Schematic File Version 4
+LIBS:base-1.0-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 5CEBD5A1
+P 8800 2950
+AR Path="/5CB5BC22/5CEBD5A1" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD5A1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8800 2800 50  0001 C CNN
+F 1 "+5V" H 8800 3090 50  0000 C CNN
+F 2 "" H 8800 2950 50  0000 C CNN
+F 3 "" H 8800 2950 50  0000 C CNN
+	1    8800 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 4550 0    60   ~ 0
+Design is based on "8.2 Typical Application" from the data sheet.\nThe design supports 8-28 V inputs.\nEN has internal pull up.
+Text Notes 2900 2250 0    60   ~ 12
+8V - 24 V to 5 V switched mode DC/DC regulator
+$Comp
+L Device:LED D?
+U 1 1 5CEBD5B0
+P 8700 3400
+AR Path="/5CB5BC22/5CEBD5B0" Ref="D?"  Part="1" 
+AR Path="/5CEBD5B0" Ref="D?"  Part="1" 
+F 0 "D?" V 8792 3282 50  0000 R CNN
+F 1 "POWER" V 8701 3282 50  0000 R CNN
+F 2 "IPC7351-Nominal:LEDC3216X110" H 8700 3400 50  0001 C CNN
+F 3 "" H 8700 3400 50  0001 C CNN
+F 4 "Green" V 8602 3282 60  0000 R CNN "color"
+F 5 "CMD15-21VGD/TR8" H 8700 3400 60  0001 C CNN "mpn"
+F 6 "LED" H 8700 3400 60  0001 C CNN "role"
+F 7 "5 mA" H 8700 3400 60  0001 C CNN "req_I"
+F 8 "2.0 V" H 8700 3400 60  0001 C CNN "req_Vf"
+F 9 "5V" H 8700 3400 60  0001 C CNN "req_Vin"
+F 10 "2.1 V" H 8700 3400 60  0001 C CNN "ds_Vf"
+	1    8700 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEBD5B7
+P 8700 3800
+AR Path="/5CB5BC22/5CEBD5B7" Ref="R?"  Part="1" 
+AR Path="/5CEBD5B7" Ref="R?"  Part="1" 
+F 0 "R?" H 8770 3846 50  0000 L CNN
+F 1 "560" H 8770 3755 50  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1005X38" V 8630 3800 50  0001 C CNN
+F 3 "" H 8700 3800 50  0001 C CNN
+F 4 "RC1005F561CS" V 8700 3800 60  0001 C CNN "mpn"
+	1    8700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD5BD
+P 8700 4050
+AR Path="/5CB5BC22/5CEBD5BD" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD5BD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8700 3800 50  0001 C CNN
+F 1 "GND" H 8700 3900 50  0000 C CNN
+F 2 "" H 8700 4050 50  0001 C CNN
+F 3 "" H 8700 4050 50  0001 C CNN
+	1    8700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEBD5C6
+P 4400 3300
+AR Path="/5CB5BC22/5CEBD5C6" Ref="C?"  Part="1" 
+AR Path="/5CEBD5C6" Ref="C?"  Part="1" 
+F 0 "C?" H 4515 3346 50  0000 L CNN
+F 1 "0.1u" H 4515 3255 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 4438 3150 50  0001 C CNN
+F 3 "" H 4400 3300 50  0000 C CNN
+F 4 "0.1u" H 4400 3300 60  0001 C CNN "ta_value"
+F 5 "35V" H 4500 3100 60  0001 C CNN "req_voltage"
+F 6 "GMK212BJ104KGHT" H 4400 3300 60  0001 C CNN "mpn"
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEBD5CF
+P 7900 3300
+AR Path="/5CB5BC22/5CEBD5CF" Ref="C?"  Part="1" 
+AR Path="/5CEBD5CF" Ref="C?"  Part="1" 
+F 0 "C?" H 8015 3346 50  0000 L CNN
+F 1 "22u" H 8015 3255 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 7938 3150 50  0001 C CNN
+F 3 "" H 7900 3300 50  0000 C CNN
+F 4 "C4" H 7900 3300 60  0001 C CNN "ta_ref"
+F 5 "10V" H 7900 3300 60  0001 C CNN "voltage"
+F 6 "CL21A226MQCLQNC" H 7900 3300 60  0001 C CNN "mpn"
+	1    7900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEBD5D8
+P 8300 3300
+AR Path="/5CB5BC22/5CEBD5D8" Ref="C?"  Part="1" 
+AR Path="/5CEBD5D8" Ref="C?"  Part="1" 
+F 0 "C?" H 8415 3346 50  0000 L CNN
+F 1 "22u" H 8415 3255 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 8338 3150 50  0001 C CNN
+F 3 "" H 8300 3300 50  0000 C CNN
+F 4 "C5" H 8300 3300 60  0001 C CNN "ta_ref"
+F 5 "10V" H 8300 3300 60  0001 C CNN "voltage"
+F 6 "CL21A226MQCLQNC" H 8300 3300 60  0001 C CNN "mpn"
+	1    8300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 P?
+U 1 1 5CEBD5DF
+P 3300 3050
+AR Path="/5CB5BC22/5CEBD5DF" Ref="P?"  Part="1" 
+AR Path="/5CEBD5DF" Ref="P?"  Part="1" 
+F 0 "P?" H 3300 3150 50  0000 C CNN
+F 1 "12V" H 3300 2850 50  0000 C CNN
+F 2 "Bitraf:har-flexicon_2,54_TSPH-02_T56_BK" H 3300 3050 50  0001 C CNN
+F 3 "" H 3300 3050 50  0001 C CNN
+F 4 "14010213102000" H 3300 3050 60  0001 C CNN "mpn"
+	1    3300 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5CEBD5E5
+P 3800 2950
+AR Path="/5CB5BC22/5CEBD5E5" Ref="#FLG?"  Part="1" 
+AR Path="/5CEBD5E5" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 3800 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 3800 3100 50  0001 C CNN
+F 2 "" H 3800 2950 50  0001 C CNN
+F 3 "" H 3800 2950 50  0001 C CNN
+	1    3800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L tps54202:TPS54202 U?
+U 1 1 5CEBD5EF
+P 5400 3050
+AR Path="/5CB5BC22/5CEBD5EF" Ref="U?"  Part="1" 
+AR Path="/5CEBD5EF" Ref="U?"  Part="1" 
+F 0 "U?" H 5400 3050 60  0000 C CNN
+F 1 "TPS54202" H 5400 3250 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 5400 3050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps54202.pdf" H 5400 3050 60  0001 C CNN
+F 4 "Figure 16. 5-V, 2-A Reference Design" H 5400 3050 60  0001 C CNN "ta"
+F 5 "TPS54202DDCT" H 5400 3050 60  0001 C CNN "mpn"
+F 6 "2A" H 5100 3750 60  0000 C CNN "Iout"
+F 7 "5V" H 5650 3750 60  0000 C CNN "Vout"
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEBD5F7
+P 7400 3300
+AR Path="/5CB5BC22/5CEBD5F7" Ref="R?"  Part="1" 
+AR Path="/5CEBD5F7" Ref="R?"  Part="1" 
+F 0 "R?" H 7470 3346 50  0000 L CNN
+F 1 "100k" H 7470 3255 50  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1005X38" V 7330 3300 50  0001 C CNN
+F 3 "" H 7400 3300 50  0000 C CNN
+F 4 "R2" V 7400 3300 60  0001 C CNN "ta_ref"
+F 5 "RC0402FR-07100KL" V 7400 3300 60  0001 C CNN "mpn"
+	1    7400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD5FD
+P 7400 4050
+AR Path="/5CB5BC22/5CEBD5FD" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD5FD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7400 3800 50  0001 C CNN
+F 1 "GND" H 7400 3900 50  0000 C CNN
+F 2 "" H 7400 4050 50  0001 C CNN
+F 3 "" H 7400 4050 50  0001 C CNN
+	1    7400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD603
+P 5400 3950
+AR Path="/5CB5BC22/5CEBD603" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD603" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 3700 50  0001 C CNN
+F 1 "GND" H 5400 3800 50  0000 C CNN
+F 2 "" H 5400 3950 50  0001 C CNN
+F 3 "" H 5400 3950 50  0001 C CNN
+	1    5400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD609
+P 4400 3550
+AR Path="/5CB5BC22/5CEBD609" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD609" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 3300 50  0001 C CNN
+F 1 "GND" H 4400 3400 50  0000 C CNN
+F 2 "" H 4400 3550 50  0001 C CNN
+F 3 "" H 4400 3550 50  0001 C CNN
+	1    4400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD60F
+P 4000 3550
+AR Path="/5CB5BC22/5CEBD60F" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD60F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 3300 50  0001 C CNN
+F 1 "GND" H 4000 3400 50  0000 C CNN
+F 2 "" H 4000 3550 50  0001 C CNN
+F 3 "" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD615
+P 3800 3250
+AR Path="/5CB5BC22/5CEBD615" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD615" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3800 3000 50  0001 C CNN
+F 1 "GND" H 3800 3100 50  0000 C CNN
+F 2 "" H 3800 3250 50  0001 C CNN
+F 3 "" H 3800 3250 50  0001 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEBD61E
+P 6300 2800
+AR Path="/5CB5BC22/5CEBD61E" Ref="C?"  Part="1" 
+AR Path="/5CEBD61E" Ref="C?"  Part="1" 
+F 0 "C?" H 6415 2846 50  0000 L CNN
+F 1 "0.1u" H 6415 2755 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 6338 2650 50  0001 C CNN
+F 3 "" H 6300 2800 50  0000 C CNN
+F 4 "C3" H 6300 2800 60  0001 C CNN "ta_ref"
+F 5 "10V" H 6300 2800 60  0001 C CNN "voltage"
+F 6 "CL21B104MBCNNNC" H 6300 2800 60  0001 C CNN "mpn"
+	1    6300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5CEBD626
+P 6750 3050
+AR Path="/5CB5BC22/5CEBD626" Ref="L?"  Part="1" 
+AR Path="/5CEBD626" Ref="L?"  Part="1" 
+F 0 "L?" V 6569 3050 50  0000 C CNN
+F 1 "15u" V 6660 3050 50  0000 C CNN
+F 2 "Inductors_SMD:L_Taiyo-Yuden_NR-80xx" H 6750 3050 50  0001 C CNN
+F 3 "" H 6750 3050 50  0001 C CNN
+F 4 "L1" V 6750 3050 60  0001 C CNN "ta_ref"
+F 5 "NRS8040T150MJGJ" V 6750 3050 60  0001 C CNN "mpn"
+	1    6750 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD62C
+P 8300 3850
+AR Path="/5CB5BC22/5CEBD62C" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD62C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 3600 50  0001 C CNN
+F 1 "GND" H 8300 3700 50  0000 C CNN
+F 2 "" H 8300 3850 50  0001 C CNN
+F 3 "" H 8300 3850 50  0001 C CNN
+	1    8300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CEBD632
+P 7900 3850
+AR Path="/5CB5BC22/5CEBD632" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD632" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 3600 50  0001 C CNN
+F 1 "GND" H 7900 3700 50  0000 C CNN
+F 2 "" H 7900 3850 50  0001 C CNN
+F 3 "" H 7900 3850 50  0001 C CNN
+	1    7900 3850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 3250
+$Comp
+L Device:R R?
+U 1 1 5CEBD63B
+P 7400 3800
+AR Path="/5CB5BC22/5CEBD63B" Ref="R?"  Part="1" 
+AR Path="/5CEBD63B" Ref="R?"  Part="1" 
+F 0 "R?" H 7470 3846 50  0000 L CNN
+F 1 "13.3k" H 7470 3755 50  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1005X38" V 7330 3800 50  0001 C CNN
+F 3 "" H 7400 3800 50  0000 C CNN
+F 4 "R3" V 7400 3800 60  0001 C CNN "ta_ref"
+F 5 "RC0402FR-0713K3L" V 7400 3800 60  0001 C CNN "mpn"
+	1    7400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CEBD644
+P 7100 3300
+AR Path="/5CB5BC22/5CEBD644" Ref="C?"  Part="1" 
+AR Path="/5CEBD644" Ref="C?"  Part="1" 
+F 0 "C?" H 6985 3346 50  0000 R CNN
+F 1 "75p" H 6985 3255 50  0000 R CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 7138 3150 50  0001 C CNN
+F 3 "" H 7100 3300 50  0000 C CNN
+F 4 "C6" H 7100 3300 60  0001 C CNN "ta_ref"
+F 5 "10V" H 7100 3300 60  0001 C CNN "voltage"
+F 6 "GRM1555C1H750JA01D" H 7100 3300 60  0001 C CNN "mpn"
+	1    7100 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 4000 2950 0    40   ~ 0
+Capacitors are\nrated to 35V
+Text Notes 6900 2950 0    40   ~ 0
+Capacitors are\nrated to 10V
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CEBD64D
+P 7900 2950
+AR Path="/5CB5BC22/5CEBD64D" Ref="TP?"  Part="1" 
+AR Path="/5CEBD64D" Ref="TP?"  Part="1" 
+F 0 "TP?" H 7900 3220 50  0000 C CNN
+F 1 "+5V" H 7900 3150 50  0000 C CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.0mm" H 8100 2950 50  0001 C CNN
+F 3 "" H 8100 2950 50  0001 C CNN
+F 4 "footprint only" H 7900 2950 60  0001 C CNN "assembly"
+	1    7900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3050 8800 2950
+Wire Wire Line
+	8700 4050 8700 3950
+Wire Wire Line
+	8700 3650 8700 3550
+Wire Wire Line
+	8700 2950 8700 3050
+Connection ~ 8700 3050
+Wire Wire Line
+	3500 3050 3600 3050
+Wire Wire Line
+	3600 3050 3600 2950
+Wire Wire Line
+	6100 3050 6300 3050
+Wire Wire Line
+	6900 3050 7100 3050
+Wire Wire Line
+	7400 3950 7400 4050
+Wire Wire Line
+	5400 3950 5400 3850
+Wire Wire Line
+	4000 3150 4000 3050
+Connection ~ 4000 3050
+Wire Wire Line
+	4400 3150 4400 3050
+Connection ~ 4400 3050
+Wire Wire Line
+	4000 3450 4000 3550
+Wire Wire Line
+	4400 3450 4400 3550
+Connection ~ 3600 3050
+Wire Wire Line
+	3500 3150 3700 3150
+Wire Wire Line
+	3800 3150 3800 3250
+Wire Wire Line
+	3800 2950 3800 3050
+Connection ~ 3800 3050
+Wire Wire Line
+	6100 2550 6300 2550
+Wire Wire Line
+	6300 2550 6300 2650
+Wire Wire Line
+	6300 3050 6300 2950
+Connection ~ 6300 3050
+Wire Wire Line
+	7900 2950 7900 3050
+Connection ~ 7900 3050
+Wire Wire Line
+	8300 3150 8300 3050
+Connection ~ 8300 3050
+Wire Wire Line
+	8300 3850 8300 3450
+Wire Wire Line
+	7900 3850 7900 3450
+Wire Wire Line
+	7400 3450 7400 3550
+Wire Wire Line
+	6100 3550 7100 3550
+Wire Wire Line
+	7100 3550 7100 3450
+Connection ~ 7400 3550
+Connection ~ 7100 3550
+Wire Wire Line
+	7100 3050 7100 3150
+Wire Wire Line
+	7400 3050 7400 3150
+Connection ~ 7100 3050
+Connection ~ 7400 3050
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5CEBD67C
+P 3700 2950
+AR Path="/5CB5BC22/5CEBD67C" Ref="#FLG?"  Part="1" 
+AR Path="/5CEBD67C" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 3700 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 3100 50  0001 C CNN
+F 2 "" H 3700 2950 50  0001 C CNN
+F 3 "" H 3700 2950 50  0001 C CNN
+	1    3700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2950 3700 3150
+Connection ~ 3700 3150
+$Comp
+L unlockoslo:Vin #PWR?
+U 1 1 5CEBD684
+P 3600 2950
+AR Path="/5CB5BC22/5CEBD684" Ref="#PWR?"  Part="1" 
+AR Path="/5CEBD684" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3600 2800 50  0001 C CNN
+F 1 "Vin" H 3600 3090 50  0000 C CNN
+F 2 "" H 3600 2950 50  0000 C CNN
+F 3 "" H 3600 2950 50  0000 C CNN
+	1    3600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5CEBD68A
+P 8700 2950
+AR Path="/5CB5BC22/5CEBD68A" Ref="#FLG?"  Part="1" 
+AR Path="/5CEBD68A" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 8700 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 8700 3100 50  0001 C CNN
+F 2 "" H 8700 2950 50  0001 C CNN
+F 3 "" H 8700 2950 50  0001 C CNN
+	1    8700 2950
+	1    0    0    -1  
+$EndComp
+Text Label 6100 3050 0    60   ~ 0
+SW
+Text Label 6100 2550 0    60   ~ 0
+BOOT
+Text Label 6100 3550 0    60   ~ 0
+FB
+Wire Wire Line
+	8700 3050 8700 3250
+Wire Wire Line
+	8700 3050 8800 3050
+Wire Wire Line
+	4000 3050 4400 3050
+Wire Wire Line
+	4400 3050 4700 3050
+Wire Wire Line
+	3600 3050 3800 3050
+Wire Wire Line
+	3800 3050 4000 3050
+Wire Wire Line
+	6300 3050 6600 3050
+Wire Wire Line
+	7900 3050 8300 3050
+Wire Wire Line
+	7900 3050 7900 3150
+Wire Wire Line
+	8300 3050 8700 3050
+Wire Wire Line
+	7400 3550 7400 3650
+Wire Wire Line
+	7100 3550 7400 3550
+Wire Wire Line
+	7100 3050 7400 3050
+Wire Wire Line
+	7400 3050 7900 3050
+Wire Wire Line
+	3700 3150 3800 3150
+$Comp
+L Device:C C?
+U 1 1 5CEBD6A5
+P 4000 3300
+AR Path="/5CB5BC22/5CEBD6A5" Ref="C?"  Part="1" 
+AR Path="/5CEBD6A5" Ref="C?"  Part="1" 
+F 0 "C?" H 4115 3346 50  0000 L CNN
+F 1 "10u" H 4115 3255 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 4038 3150 50  0001 C CNN
+F 3 "" H 4000 3300 50  0000 C CNN
+F 4 "C1" H 4000 3300 60  0001 C CNN "ta_ref"
+F 5 "35V" H 4100 3100 60  0001 C CNN "req_voltage"
+F 6 "GMK212BBJ106KG-T" H 4000 3300 60  0001 C CNN "mpn"
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

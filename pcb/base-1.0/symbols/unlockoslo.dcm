@@ -5,6 +5,12 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP Net-Tie_3_to_1
+D Net tie, 4 pins, cross
+K net tie short
+F ~
+$ENDCMP
+#
 $CMP Vin
 D power-flag symbol
 K Power Flag Symbol

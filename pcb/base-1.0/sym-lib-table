@@ -2,4 +2,6 @@
   (lib (name base-1.0-rescue)(type Legacy)(uri ${KIPRJMOD}/base-1.0-rescue.lib)(options "")(descr ""))
   (lib (name tps54202)(type Legacy)(uri ${KIPRJMOD}/symbols/tps54202.lib)(options "")(descr ""))
   (lib (name unlockoslo)(type Legacy)(uri ${KIPRJMOD}/symbols/unlockoslo.lib)(options "")(descr ""))
+  (lib (name TPS62147)(type Legacy)(uri ${KIPRJMOD}/symbols/TPS62147.lib)(options "")(descr ""))
+  (lib (name LTC4417)(type Legacy)(uri ${KIPRJMOD}/symbols/LTC4417.lib)(options "")(descr ""))
 )
