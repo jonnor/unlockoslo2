@@ -1,2 +1,9 @@
 *.bak
 *.bck
+.ninja_*
+
+# for now
+*.ninja
+ee/*
+!ee/sch.xml
+eeconfig
