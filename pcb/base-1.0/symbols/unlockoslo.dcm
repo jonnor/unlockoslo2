@@ -5,6 +5,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP GND_ETH
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
 $CMP Net-Tie_3_to_1
 D Net tie, 4 pins, cross
 K net tie short

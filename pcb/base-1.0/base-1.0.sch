@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Unlock Oslo v2"
 Date "2019-04-15"
 Rev ""
@@ -741,4 +741,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf" H 2700 5300 50  
 	1    2900 6250
 	-1   0    0    -1  
 $EndComp
+$Sheet
+S 7100 7200 1900 650 
+U 5CD16E32
+F0 "PoE" 50
+F1 "poe.sch" 50
+$EndSheet
 $EndSCHEMATC
