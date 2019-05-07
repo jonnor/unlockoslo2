@@ -1,11 +1,33 @@
 <part-db>
     <parts>
         <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Earth</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>GND</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
             <references>
                 <schematic-reference>
                     <reference>C101</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100n</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -13,6 +35,12 @@
                     <reference>C102</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10u</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -20,6 +48,12 @@
                     <reference>C201</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100n</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -27,6 +61,12 @@
                     <reference>C202</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100n</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -34,6 +74,12 @@
                     <reference>C203</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100n</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -41,6 +87,12 @@
                     <reference>C204</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100n</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -48,6 +100,12 @@
                     <reference>C205</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100n</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -55,6 +113,12 @@
                     <reference>C206</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100n</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -62,6 +126,12 @@
                     <reference>C301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1nF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -69,6 +139,12 @@
                     <reference>C302</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100nF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -76,6 +152,12 @@
                     <reference>C303</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100nF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -83,6 +165,12 @@
                     <reference>C304</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -90,6 +178,12 @@
                     <reference>C305</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -97,6 +191,12 @@
                     <reference>C306</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -104,6 +204,12 @@
                     <reference>C307</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -111,6 +217,12 @@
                     <reference>C308</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>22uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -118,6 +230,12 @@
                     <reference>C309</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>22uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -125,6 +243,12 @@
                     <reference>C310</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>22nF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -132,6 +256,12 @@
                     <reference>C311</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>22uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -139,6 +269,12 @@
                     <reference>C312</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -146,13 +282,12 @@
                     <reference>C313</reference>
                 </schematic-reference>
             </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>C314</reference>
-                </schematic-reference>
-            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -160,6 +295,12 @@
                     <reference>C315</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>47nF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -167,20 +308,12 @@
                     <reference>C316</reference>
                 </schematic-reference>
             </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>C317</reference>
-                </schematic-reference>
-            </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>C318</reference>
-                </schematic-reference>
-            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>2.2nF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -188,6 +321,12 @@
                     <reference>C319</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100pF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -195,6 +334,12 @@
                     <reference>C320</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100uF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -202,6 +347,28 @@
                     <reference>C321</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>22uF</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>C</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10pF</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -209,6 +376,12 @@
                     <reference>D101</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>D_Zener</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -216,6 +389,12 @@
                     <reference>D102</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>LED</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -223,6 +402,12 @@
                     <reference>D103</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>LED</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -230,6 +415,12 @@
                     <reference>D104</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>LED</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -237,6 +428,12 @@
                     <reference>D301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>CDBHD1100L-G</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -244,6 +441,12 @@
                     <reference>D302</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>CDBHD1100L-G</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -251,6 +454,12 @@
                     <reference>D303</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>SMAJ58A</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -258,6 +467,12 @@
                     <reference>D304</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>SMAJ58A</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -265,6 +480,12 @@
                     <reference>D305</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAS16</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -272,6 +493,12 @@
                     <reference>D306</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAS16</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -279,13 +506,12 @@
                     <reference>D307</reference>
                 </schematic-reference>
             </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>D308</reference>
-                </schematic-reference>
-            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAS16</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -293,6 +519,12 @@
                     <reference>D309</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAS16</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -300,6 +532,12 @@
                     <reference>D310</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>12V</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -307,6 +545,12 @@
                     <reference>D311</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAS16</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -314,6 +558,20 @@
                     <reference>D312</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>12V</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAV99</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -321,6 +579,12 @@
                     <reference>FB301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Ferrite_Bead</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -328,6 +592,12 @@
                     <reference>FB302</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Ferrite_Bead</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -335,6 +605,12 @@
                     <reference>J101</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>USB_B_Micro</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -342,6 +618,20 @@
                     <reference>J102</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Conn_01x06</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>74984104400</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -352,6 +642,12 @@
                     <value>74404043102A</value>
                 </part-number>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1mH</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -359,6 +655,12 @@
                     <reference>L302</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>3.3uH</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -366,6 +668,12 @@
                     <reference>L303</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>22uH</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -373,6 +681,12 @@
                     <reference>NT101</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Net-Tie_2</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -380,6 +694,12 @@
                     <reference>NT102</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Net-Tie_2</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -387,6 +707,12 @@
                     <reference>NT201</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Net-Tie_4_to_1</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -394,6 +720,12 @@
                     <reference>NT301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Net-Tie_3_Tee</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -401,6 +733,24 @@
                     <reference>Q101</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BC817</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_TO_SOT_SMD:SOT-23</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_TO_SOT_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>SOT-23</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -408,6 +758,24 @@
                     <reference>Q102</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BC817</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_TO_SOT_SMD:SOT-23</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_TO_SOT_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>SOT-23</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -415,6 +783,12 @@
                     <reference>Q201</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Q_PMOS_DGS</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -422,6 +796,12 @@
                     <reference>Q202</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Q_PMOS_DGS</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -429,6 +809,12 @@
                     <reference>Q203</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Q_PMOS_DGS</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -436,6 +822,12 @@
                     <reference>Q204</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Q_PMOS_DGS</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -443,6 +835,12 @@
                     <reference>Q205</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Q_PMOS_DGS</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -450,6 +848,12 @@
                     <reference>Q206</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Q_PMOS_DGS</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -457,6 +861,12 @@
                     <reference>Q301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Si4848DY</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -464,6 +874,12 @@
                     <reference>Q302</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Si2325DS</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -471,6 +887,12 @@
                     <reference>Q303</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Si7852DP</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -478,6 +900,12 @@
                     <reference>Q304</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>MMBTA06</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -485,6 +913,12 @@
                     <reference>Q305</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>MMBTA06</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -492,6 +926,12 @@
                     <reference>Q306</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Si4850EY</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -499,6 +939,12 @@
                     <reference>R101</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>22.1k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -506,6 +952,12 @@
                     <reference>R102</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>47.5k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -513,6 +965,12 @@
                     <reference>R103</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -520,6 +978,12 @@
                     <reference>R104</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -527,6 +991,12 @@
                     <reference>R105</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>270</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -534,6 +1004,12 @@
                     <reference>R106</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -541,6 +1017,12 @@
                     <reference>R107</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -548,6 +1030,12 @@
                     <reference>R108</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -555,6 +1043,12 @@
                     <reference>R109</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -562,6 +1056,12 @@
                     <reference>R110</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -569,6 +1069,12 @@
                     <reference>R111</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -576,6 +1082,12 @@
                     <reference>R112</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -583,6 +1095,12 @@
                     <reference>R113</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -590,6 +1108,12 @@
                     <reference>R114</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -597,6 +1121,12 @@
                     <reference>R201</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -604,6 +1134,12 @@
                     <reference>R202</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -611,6 +1147,12 @@
                     <reference>R203</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>49,9k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -618,6 +1160,12 @@
                     <reference>R204</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -625,6 +1173,12 @@
                     <reference>R205</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -632,6 +1186,12 @@
                     <reference>R206</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -639,6 +1199,12 @@
                     <reference>R207</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -646,6 +1212,12 @@
                     <reference>R208</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -653,6 +1225,12 @@
                     <reference>R209</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -660,6 +1238,12 @@
                     <reference>R301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>69.8k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -667,6 +1251,12 @@
                     <reference>R302</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>63.4k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -674,6 +1264,12 @@
                     <reference>R303</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>63.4</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -681,6 +1277,12 @@
                     <reference>R304</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>24.9k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -688,6 +1290,12 @@
                     <reference>R305</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>80.6k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -695,6 +1303,12 @@
                     <reference>R306</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -702,6 +1316,12 @@
                     <reference>R307</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -709,6 +1329,12 @@
                     <reference>R308</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>0</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -716,6 +1342,12 @@
                     <reference>R309</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>348</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -723,6 +1355,12 @@
                     <reference>R310</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1.5k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -730,6 +1368,12 @@
                     <reference>R311</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>0.12</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -737,6 +1381,12 @@
                     <reference>R312</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>2.49k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -744,6 +1394,12 @@
                     <reference>R313</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -751,34 +1407,12 @@
                     <reference>R314</reference>
                 </schematic-reference>
             </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>R315</reference>
-                </schematic-reference>
-            </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>R316</reference>
-                </schematic-reference>
-            </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>R317</reference>
-                </schematic-reference>
-            </references>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>R318</reference>
-                </schematic-reference>
-            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -786,6 +1420,12 @@
                     <reference>R319</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>2k</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -793,6 +1433,56 @@
                     <reference>R320</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>2k</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>2.2k</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10k</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>R_Network04</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_THT:R_Array_SIP5</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_THT</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_Array_SIP5</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>TestPoint</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -800,6 +1490,12 @@
                     <reference>TR301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>TRANSF6</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -807,6 +1503,24 @@
                     <reference>U101</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>CP2102N-A01-GQFN24</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_DFN_QFN</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -814,6 +1528,24 @@
                     <reference>U102</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>LAN8720A</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_DFN_QFN</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -821,6 +1553,24 @@
                     <reference>U103</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>ESP32-WROOM-32D</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>RF_Module:ESP32-WROOM-32</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>RF_Module</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>ESP32-WROOM-32</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -828,6 +1578,12 @@
                     <reference>U201</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>LTC4417</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -835,6 +1591,12 @@
                     <reference>U301</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>TPS23754</value>
+                </fact>
+            </facts>
         </part>
         <part>
             <references>
@@ -842,13 +1604,44 @@
                     <reference>U302</reference>
                 </schematic-reference>
             </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>FOD817AS</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_DIP:DIP-4_W7.62mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_DIP</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>DIP-4_W7.62mm</value>
+                </fact>
+            </facts>
         </part>
         <part>
-            <references>
-                <schematic-reference>
-                    <reference>U303</reference>
-                </schematic-reference>
-            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>TL431D</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_SO</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>SOIC-8_3.9x4.9mm_P1.27mm</value>
+                </fact>
+            </facts>
         </part>
     </parts>
 </part-db>

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -666,11 +666,11 @@ Wire Wire Line
 Wire Wire Line
 	6200 6200 5600 6200
 Text HLabel 6200 6000 2    50   Input ~ 0
-~Valid1
+~Valid_PoE
 Text HLabel 6200 6100 2    50   Input ~ 0
-~Valid2
+~Valid_adapter
 Text HLabel 6200 6200 2    50   Input ~ 0
-~Valid3
+~Valid_USB
 NoConn ~ 5600 6500
 NoConn ~ 5600 6600
 NoConn ~ 5600 6700
