@@ -1,6 +1,7 @@
 *.bak
 *.bck
 .ninja_*
+_autosave-*.sch
 
 # for now
 *.ninja

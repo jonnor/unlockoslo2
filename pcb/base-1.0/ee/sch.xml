@@ -1,22 +1,6 @@
 <part-db>
     <parts>
         <part>
-            <facts>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>Earth</value>
-                </fact>
-            </facts>
-        </part>
-        <part>
-            <facts>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>GND</value>
-                </fact>
-            </facts>
-        </part>
-        <part>
             <references>
                 <schematic-reference>
                     <reference>C101</reference>
@@ -26,6 +10,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -40,6 +28,104 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>10u</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C103</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C104</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C105</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>470pF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C106</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C107</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>?</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C108</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>?</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -52,6 +138,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -66,6 +156,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -78,6 +172,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -92,6 +190,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -104,6 +206,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -118,6 +224,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -130,6 +240,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -144,6 +258,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100nF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -156,6 +274,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -170,6 +292,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -182,6 +308,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -196,6 +326,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -208,6 +342,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -222,6 +360,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22uF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -234,6 +376,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -248,6 +394,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22nF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -260,6 +410,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -274,6 +428,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -286,6 +444,23 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C314</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -300,6 +475,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>47nF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -312,6 +491,44 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>2.2nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C317</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10pF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C318</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>15nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -326,6 +543,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100pF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -338,6 +559,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -352,21 +577,9 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22uF</value>
                 </fact>
-            </facts>
-        </part>
-        <part>
-            <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>C</value>
-                </fact>
-            </facts>
-        </part>
-        <part>
-            <facts>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>10pF</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
             </facts>
         </part>
@@ -378,8 +591,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>D_Zener</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -391,8 +604,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>LED</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -404,8 +617,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>LED</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -417,8 +630,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>LED</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -433,6 +646,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>CDBHD1100L-G</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -445,6 +662,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>CDBHD1100L-G</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -459,6 +680,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>SMAJ58A</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -471,6 +696,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>SMAJ58A</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -485,6 +714,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -497,6 +730,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -511,6 +748,27 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>D308</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAV99</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -523,6 +781,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -537,6 +799,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>12V</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -549,6 +815,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -563,13 +833,9 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>12V</value>
                 </fact>
-            </facts>
-        </part>
-        <part>
-            <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>BAV99</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -626,6 +892,11 @@
             </facts>
         </part>
         <part>
+            <references>
+                <schematic-reference>
+                    <reference>J103</reference>
+                </schematic-reference>
+            </references>
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
@@ -647,6 +918,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1mH</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#inductor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -660,6 +935,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>3.3uH</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#inductor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -672,6 +951,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22uH</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#inductor</value>
                 </fact>
             </facts>
         </part>
@@ -750,6 +1033,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
                     <value>SOT-23</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -775,6 +1062,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
                     <value>SOT-23</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -785,8 +1076,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>Q_PMOS_DGS</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -798,8 +1089,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>Q_PMOS_DGS</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -811,8 +1102,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>Q_PMOS_DGS</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -824,8 +1115,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>Q_PMOS_DGS</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -837,8 +1128,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>Q_PMOS_DGS</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -850,8 +1141,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>Q_PMOS_DGS</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -866,6 +1157,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Si4848DY</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -878,6 +1173,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Si2325DS</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -892,6 +1191,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Si7852DP</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -904,6 +1207,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>MMBTA06</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -918,6 +1225,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>MMBTA06</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -930,6 +1241,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Si4850EY</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
             </facts>
         </part>
@@ -944,6 +1259,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22.1k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -957,6 +1276,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>47.5k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -967,8 +1290,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -983,6 +1306,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -996,6 +1323,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>270</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1006,8 +1337,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1019,8 +1350,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1035,6 +1366,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1047,6 +1382,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1061,6 +1400,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1073,6 +1416,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1087,6 +1434,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1099,6 +1450,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1113,6 +1468,112 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>10k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R115</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>2.2k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R116</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>2.2k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R117</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>4.75k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R118</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>4.75k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R119</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>4.75k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R120</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1.5k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1123,8 +1584,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1136,8 +1597,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1152,6 +1613,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>49,9k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1162,8 +1627,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1175,8 +1640,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1188,8 +1653,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1201,8 +1666,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1214,8 +1679,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1227,8 +1692,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1243,6 +1708,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>69.8k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1255,6 +1724,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>63.4k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1269,6 +1742,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>63.4</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1281,6 +1758,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>24.9k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1295,6 +1776,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>80.6k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1307,6 +1792,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>10</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1321,6 +1810,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1333,6 +1826,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>0</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1347,6 +1844,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>348</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1359,6 +1860,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1.5k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1373,6 +1878,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>0.12</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1386,6 +1895,10 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>2.49k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1396,8 +1909,8 @@
             </references>
             <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>R</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1412,6 +1925,78 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>10k</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R315</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>10k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R316</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>41.2k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R317</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>11k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R318</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>49.9</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1424,6 +2009,10 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>2k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
@@ -1438,25 +2027,18 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>2k</value>
                 </fact>
-            </facts>
-        </part>
-        <part>
-            <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>2.2k</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
         <part>
-            <facts>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>10k</value>
-                </fact>
-            </facts>
-        </part>
-        <part>
+            <references>
+                <schematic-reference>
+                    <reference>RN101</reference>
+                </schematic-reference>
+            </references>
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
@@ -1477,6 +2059,11 @@
             </facts>
         </part>
         <part>
+            <references>
+                <schematic-reference>
+                    <reference>TP101</reference>
+                </schematic-reference>
+            </references>
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
@@ -1624,6 +2211,11 @@
             </facts>
         </part>
         <part>
+            <references>
+                <schematic-reference>
+                    <reference>U303</reference>
+                </schematic-reference>
+            </references>
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
