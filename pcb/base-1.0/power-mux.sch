@@ -505,7 +505,7 @@ P 4500 6100
 F 0 "U201" H 4500 6100 50  0000 C CNN
 F 1 "LTC4417" H 4500 6000 50  0000 C CNN
 F 2 "" H 4500 6400 50  0001 C CNN
-F 3 "" H 4500 6400 50  0001 C CNN
+F 3 "http://www.linear.com/docs/42408" H 4500 6400 50  0001 C CNN
 	1    4500 6100
 	1    0    0    -1  
 $EndComp
@@ -658,18 +658,18 @@ Connection ~ 1400 800
 Wire Wire Line
 	1400 800  8100 800 
 Wire Wire Line
-	5600 5500 10200 5500
+	5600 5500 5700 5500
 Wire Wire Line
-	5600 6000 6200 6000
+	5600 6000 5700 6000
 Wire Wire Line
-	6200 6100 5600 6100
+	6650 6100 6100 6100
 Wire Wire Line
-	6200 6200 5600 6200
-Text HLabel 6200 6000 2    50   Input ~ 0
+	6650 6200 6500 6200
+Text HLabel 6650 6000 2    50   Input ~ 0
 ~Valid_PoE
-Text HLabel 6200 6100 2    50   Input ~ 0
+Text HLabel 6650 6100 2    50   Input ~ 0
 ~Valid_adapter
-Text HLabel 6200 6200 2    50   Input ~ 0
+Text HLabel 6650 6200 2    50   Input ~ 0
 ~Valid_USB
 NoConn ~ 5600 6500
 NoConn ~ 5600 6600
@@ -702,4 +702,67 @@ F 3 "~" H 5500 1800 50  0001 C CNN
 $EndComp
 Text Notes 2400 -850 0    50   ~ 0
 TODO:\n* Select MOSFETs. One option: CSD75207W15\n* Calculate resistor values
+$Comp
+L Device:R R210
+U 1 1 5D207874
+P 5700 5750
+F 0 "R210" H 5770 5796 50  0000 L CNN
+F 1 "1M" H 5770 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5630 5750 50  0001 C CNN
+F 3 "~" H 5700 5750 50  0001 C CNN
+	1    5700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R211
+U 1 1 5D207BF4
+P 6100 5750
+F 0 "R211" H 6170 5796 50  0000 L CNN
+F 1 "1M" H 6170 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6030 5750 50  0001 C CNN
+F 3 "~" H 6100 5750 50  0001 C CNN
+	1    6100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R212
+U 1 1 5D207E7A
+P 6500 5750
+F 0 "R212" H 6570 5796 50  0000 L CNN
+F 1 "1M" H 6570 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 5750 50  0001 C CNN
+F 3 "~" H 6500 5750 50  0001 C CNN
+	1    6500 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5900 6500 6200
+Connection ~ 6500 6200
+Wire Wire Line
+	6500 6200 5600 6200
+Wire Wire Line
+	6100 5900 6100 6100
+Connection ~ 6100 6100
+Wire Wire Line
+	6100 6100 5600 6100
+Wire Wire Line
+	5700 5900 5700 6000
+Connection ~ 5700 6000
+Wire Wire Line
+	5700 6000 6650 6000
+Wire Wire Line
+	5700 5600 5700 5500
+Connection ~ 5700 5500
+Wire Wire Line
+	5700 5500 6100 5500
+Wire Wire Line
+	6100 5600 6100 5500
+Connection ~ 6100 5500
+Wire Wire Line
+	6100 5500 6500 5500
+Wire Wire Line
+	6500 5600 6500 5500
+Connection ~ 6500 5500
+Wire Wire Line
+	6500 5500 10200 5500
 $EndSCHEMATC
