@@ -30,6 +30,12 @@ K net tie short
 F ~
 $ENDCMP
 #
+$CMP Q_NMOS_SSSGDDDD
+D N-MOSFET transistor, drain/gate/source
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Vin
 D power-flag symbol
 K Power Flag Symbol
