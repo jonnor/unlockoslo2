@@ -530,17 +530,6 @@ F6 "~Valid_PoE" I R 3700 4300 50
 F7 "~Valid_adapter" I R 3700 4400 50 
 F8 "~Valid_USB" I R 3700 4500 50 
 $EndSheet
-$Comp
-L unlockoslo:74984104400 J103
-U 1 1 5DAC9EBF
-P 1200 9700
-F 0 "J103" H 1200 9750 50  0000 C CNN
-F 1 "74984104400" H 1200 9650 50  0000 C CNN
-F 2 "" H 1200 9700 50  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/74984104400.pdf" H 1200 9700 50  0001 C CNN
-	1    1200 9700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 4200 2400 4200
 Wire Wire Line
@@ -557,17 +546,6 @@ F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 7550 8350 50  0001 L
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf" H 7300 8450 50  0001 C CNN
 	1    7500 9400
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C103
-U 1 1 5DB45047
-P 900 10650
-F 0 "C103" H 1015 10696 50  0000 L CNN
-F 1 "C" H 1015 10605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 938 10500 50  0001 C CNN
-F 3 "~" H 900 10650 50  0001 C CNN
-	1    900  10650
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C104
@@ -591,19 +569,6 @@ F 3 "~" H 1900 10800 50  0001 C CNN
 	1    1900 10800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:Earth #PWR0133
-U 1 1 5DC05FD3
-P 900 10900
-F 0 "#PWR0133" H 900 10650 50  0001 C CNN
-F 1 "Earth" H 900 10750 50  0001 C CNN
-F 2 "" H 900 10900 50  0001 C CNN
-F 3 "~" H 900 10900 50  0001 C CNN
-	1    900  10900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  10900 900  10800
 Wire Wire Line
 	1900 10700 1900 10800
 Wire Wire Line
@@ -657,8 +622,6 @@ Text Label 2600 9400 2    50   ~ 0
 ETH_RD+
 Text Label 2600 9500 2    50   ~ 0
 ETH_RD-
-Wire Wire Line
-	900  10400 900  10500
 Wire Wire Line
 	1800 9600 1900 9600
 Wire Wire Line
@@ -1692,5 +1655,16 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 2425 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 8600 2500 50  0001 L CNN
 	1    8600 2500
 	1    0    0    1   
+$EndComp
+$Comp
+L unlockoslo:74984104400 J103
+U 1 1 5DAC9EBF
+P 1200 9700
+F 0 "J103" H 1200 9750 50  0000 C CNN
+F 1 "74984104400" H 1200 9650 50  0000 C CNN
+F 2 "74984104400:74984104400" H 1200 9700 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/74984104400.pdf" H 1200 9700 50  0001 C CNN
+	1    1200 9700
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

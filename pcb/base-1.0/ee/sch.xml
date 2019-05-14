@@ -12,6 +12,18 @@
                     <value>100n</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -29,18 +41,17 @@
                     <value>10u</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
-                    <value>http://purl.org/ee/part-type#capacitor</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
                 </fact>
-            </facts>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>C103</reference>
-                </schematic-reference>
-            </references>
-            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
@@ -54,6 +65,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
@@ -70,6 +93,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>470pF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -89,6 +124,18 @@
                     <value>1uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -103,7 +150,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>?</value>
+                    <value>100nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -120,7 +179,189 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>?</value>
+                    <value>4.7uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C109</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C110</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C111</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C112</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>100nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C113</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitors_SMD:C_0402</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitors_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>C114</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1u</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitors_SMD:C_0402</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitors_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -140,6 +381,18 @@
                     <value>100n</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -155,6 +408,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -174,6 +439,18 @@
                     <value>100n</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -189,6 +466,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -208,6 +497,18 @@
                     <value>100n</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -223,6 +524,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100n</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -242,6 +555,18 @@
                     <value>1nF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -257,6 +582,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -276,6 +613,18 @@
                     <value>100nF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -291,6 +640,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -310,6 +671,18 @@
                     <value>1uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -325,6 +698,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -344,6 +729,18 @@
                     <value>1uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -359,6 +756,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -378,6 +787,18 @@
                     <value>22uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -393,6 +814,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>22nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -412,6 +845,18 @@
                     <value>22uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -427,6 +872,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1uF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -446,6 +903,18 @@
                     <value>1uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -458,6 +927,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
@@ -474,6 +955,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>47nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -493,6 +986,18 @@
                     <value>2.2nF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -508,6 +1013,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>10pF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -527,6 +1044,18 @@
                     <value>15nF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -542,6 +1071,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>100pF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -561,6 +1102,18 @@
                     <value>100uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
                 </fact>
@@ -578,34 +1131,20 @@
                     <value>22uF</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Capacitor_SMD:C_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Capacitor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>C_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
-                </fact>
-            </facts>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>D101</reference>
-                </schematic-reference>
-            </references>
-            <facts>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
-                    <value>http://purl.org/ee/part-type#diode</value>
-                </fact>
-            </facts>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>D102</reference>
-                </schematic-reference>
-            </references>
-            <facts>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
-                    <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
             </facts>
         </part>
@@ -616,6 +1155,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>LED_SMD:LED_1206_3216Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>LED_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>LED_1206_3216Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#diode</value>
@@ -629,6 +1180,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>LED_SMD:LED_1206_3216Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>LED_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>LED_1206_3216Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#diode</value>
@@ -645,6 +1208,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>CDBHD1100L-G</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diodes_SMD:Diode_Bridge_TO-269AA</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diodes_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>Diode_Bridge_TO-269AA</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -664,6 +1239,18 @@
                     <value>CDBHD1100L-G</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diodes_SMD:Diode_Bridge_TO-269AA</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diodes_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>Diode_Bridge_TO-269AA</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
@@ -679,6 +1266,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>SMAJ58A</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SMA</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SMA</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -698,6 +1297,18 @@
                     <value>SMAJ58A</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SMA</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SMA</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
@@ -713,6 +1324,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOT-23_ANK</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -732,6 +1355,18 @@
                     <value>BAS16</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOT-23_ANK</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
@@ -747,6 +1382,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOT-23_ANK</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -766,6 +1413,18 @@
                     <value>BAV99</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOT-23_ANK</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
@@ -781,6 +1440,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>BAS16</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOT-23_ANK</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -817,6 +1488,18 @@
                     <value>BAS16</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOT-23_ANK</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#diode</value>
                 </fact>
@@ -842,6 +1525,60 @@
         <part>
             <references>
                 <schematic-reference>
+                    <reference>FB101</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>FBMJ2125HS250NT</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Inductor_SMD:L_0805_2012Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Inductor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>L_0805_2012Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#inductor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>FB102</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>MPZ1005S900HT000</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Inductors_SMD:L_0402</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Inductors_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>L_0402</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
                     <reference>FB301</reference>
                 </schematic-reference>
             </references>
@@ -849,6 +1586,22 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Ferrite_Bead</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Inductor_SMD:L_0603_1608Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Inductor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>L_0603_1608Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#inductor</value>
                 </fact>
             </facts>
         </part>
@@ -862,6 +1615,22 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Ferrite_Bead</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Inductor_SMD:L_0603_1608Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Inductor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>L_0603_1608Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#inductor</value>
                 </fact>
             </facts>
         </part>
@@ -901,6 +1670,31 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>74984104400</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>74984104400:74984104400</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>74984104400</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>74984104400</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>J104</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>Jack-DC</value>
                 </fact>
             </facts>
         </part>
@@ -969,6 +1763,18 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Net-Tie_2</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>NetTie:NetTie-2_SMD_Pad0.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>NetTie</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>NetTie-2_SMD_Pad0.5mm</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -981,6 +1787,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Net-Tie_2</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>NetTie:NetTie-2_SMD_Pad0.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>NetTie</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>NetTie-2_SMD_Pad0.5mm</value>
                 </fact>
             </facts>
         </part>
@@ -995,6 +1813,18 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Net-Tie_4_to_1</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>NetTie:NetTie-4_SMD_Pad0.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>NetTie</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>NetTie-4_SMD_Pad0.5mm</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -1007,6 +1837,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Net-Tie_3_Tee</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>NetTie:NetTie-4_SMD_Pad0.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>NetTie</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>NetTie-4_SMD_Pad0.5mm</value>
                 </fact>
             </facts>
         </part>
@@ -1057,6 +1899,35 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
                     <value>Package_TO_SOT_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>SOT-23</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#transistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>Q103</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>DMP2305U-7</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>TO_SOT_Packages_SMD:SOT-23</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>TO_SOT_Packages_SMD</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
@@ -1158,6 +2029,18 @@
                     <value>Si4848DY</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_SO:SO-8_3.9x4.9mm_P1.27mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_SO</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>SO-8_3.9x4.9mm_P1.27mm</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#transistor</value>
                 </fact>
@@ -1173,6 +2056,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>Si2325DS</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_TO_SOT_SMD:SOT-23</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_TO_SOT_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>SOT-23</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1260,6 +2155,18 @@
                     <value>22.1k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1277,18 +2184,17 @@
                     <value>47.5k</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
-                    <value>http://purl.org/ee/part-type#resistor</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
                 </fact>
-            </facts>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>R103</reference>
-                </schematic-reference>
-            </references>
-            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
@@ -1307,21 +2213,16 @@
                     <value>1k</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
-                    <value>http://purl.org/ee/part-type#resistor</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
                 </fact>
-            </facts>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>R105</reference>
-                </schematic-reference>
-            </references>
-            <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>270</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1337,6 +2238,18 @@
             </references>
             <facts>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1349,6 +2262,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
@@ -1364,7 +2289,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>100</value>
+                    <value>12.1k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1381,7 +2318,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>100</value>
+                    <value>4.75k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1398,24 +2347,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>100</value>
+                    <value>4.75k</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
-                    <value>http://purl.org/ee/part-type#resistor</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
                 </fact>
-            </facts>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>R111</reference>
-                </schematic-reference>
-            </references>
-            <facts>
                 <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>100</value>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1432,7 +2376,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>1k</value>
+                    <value>10k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1449,7 +2405,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>1k</value>
+                    <value>10k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1469,6 +2437,18 @@
                     <value>10k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1484,6 +2464,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>2.2k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1503,6 +2495,18 @@
                     <value>2.2k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1518,6 +2522,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>4.75k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1537,6 +2553,18 @@
                     <value>4.75k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1552,6 +2580,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>4.75k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1571,6 +2611,18 @@
                     <value>1.5k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1584,6 +2636,18 @@
             </references>
             <facts>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1596,6 +2660,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
@@ -1614,6 +2690,18 @@
                     <value>49,9k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1626,6 +2714,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
@@ -1640,6 +2740,18 @@
             </references>
             <facts>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1652,6 +2764,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
@@ -1666,6 +2790,18 @@
             </references>
             <facts>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1679,6 +2815,18 @@
             </references>
             <facts>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1691,6 +2839,105 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R210</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1M</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R211</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1M</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>R212</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>1M</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
@@ -1707,6 +2954,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>69.8k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1726,6 +2985,18 @@
                     <value>63.4k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1741,6 +3012,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>63.4</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1760,6 +3043,18 @@
                     <value>24.9k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1775,6 +3070,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>80.6k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1794,6 +3101,18 @@
                     <value>10</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1809,6 +3128,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>1k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1828,6 +3159,18 @@
                     <value>0</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1843,6 +3186,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>348</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1862,6 +3217,18 @@
                     <value>1.5k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1876,7 +3243,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>0.12</value>
+                    <value>120m</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1896,6 +3275,18 @@
                     <value>2.49k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1908,6 +3299,18 @@
                 </schematic-reference>
             </references>
             <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
@@ -1924,6 +3327,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>10k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1943,6 +3358,18 @@
                     <value>10k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1958,6 +3385,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>41.2k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1977,6 +3416,18 @@
                     <value>11k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -1992,6 +3443,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>49.9</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -2011,6 +3474,18 @@
                     <value>2k</value>
                 </fact>
                 <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
+                </fact>
+                <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
                     <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
@@ -2026,6 +3501,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>2k</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Resistor_SMD:R_0402_1005Metric</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Resistor_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>R_0402_1005Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -2055,6 +3542,19 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
                     <value>R_Array_SIP5</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
+                    <reference>SW101</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>SW_Push</value>
                 </fact>
             </facts>
         </part>
@@ -2162,6 +3662,31 @@
         <part>
             <references>
                 <schematic-reference>
+                    <reference>U104</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>USBLC6-2SC6</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_TO_SOT_SMD:SOT-23-6</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_TO_SOT_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>SOT-23-6</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
                     <reference>U201</reference>
                 </schematic-reference>
             </references>
@@ -2169,6 +3694,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>LTC4417</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_DFN_QFN</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias</value>
                 </fact>
             </facts>
         </part>
@@ -2182,6 +3719,18 @@
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>TPS23754</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Package_SO</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm</value>
                 </fact>
             </facts>
         </part>

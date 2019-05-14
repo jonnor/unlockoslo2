@@ -19,6 +19,10 @@ $CMP 74984104400
 F https://katalog.we-online.de/pbs/datasheet/74984104400.pdf
 $ENDCMP
 #
+$CMP 74984104400_v2
+F https://katalog.we-online.de/pbs/datasheet/74984104400.pdf
+$ENDCMP
+#
 $CMP GND_ETH
 D Power symbol creates a global label with name "GND" , ground
 K power-flag

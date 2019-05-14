@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TPS23754
+F http://www.ti.com/lit/ds/symlink/tps23754.pdf
+$ENDCMP
+#
 #End Doc Library
