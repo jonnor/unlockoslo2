@@ -1,4 +1,4 @@
-15927930317676286
+15931045989212429
 74984104400
 74984104400
 
@@ -61725,6 +61725,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+PAxxxxNL
+PAxxxxNL
+
+
+0
+10
+10
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -70349,6 +70356,13 @@ test point THT pad
 0
 1
 1
+TL3315
+TL3315
+
+
+0
+4
+4
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
