@@ -2,4 +2,8 @@
   (lib (name 74984104400)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/74984104400.pretty)(options "")(descr ""))
   (lib (name TL3315)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/TL3315.pretty)(options "")(descr ""))
   (lib (name PAxxxxNL)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/PAxxxxNL.pretty)(options "")(descr ""))
+  (lib (name 74404043102A)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/74404043102A.pretty)(options "")(descr ""))
+  (lib (name 744043003)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/744043003.pretty)(options "")(descr ""))
+  (lib (name 744770122)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/744770122.pretty)(options "")(descr ""))
+  (lib (name 10118194)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/10118194.pretty)(options "")(descr ""))
 )

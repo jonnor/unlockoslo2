@@ -2,6 +2,7 @@
 *.bck
 .ninja_*
 _autosave-*.sch
+*.kicad_pcb-bak
 
 # for now
 *.ninja

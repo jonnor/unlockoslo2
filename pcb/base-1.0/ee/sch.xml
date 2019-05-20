@@ -1319,6 +1319,9 @@
                 <schematic-reference>
                     <reference>D305</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>BAS16HT3G</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -1327,7 +1330,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
-                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                    <value>Diode_SMD:D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
@@ -1335,7 +1338,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
-                    <value>D_SOT-23_ANK</value>
+                    <value>D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1348,6 +1351,9 @@
                 <schematic-reference>
                     <reference>D306</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>BAS16HT3G</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -1356,7 +1362,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
-                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                    <value>Diode_SMD:D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
@@ -1364,7 +1370,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
-                    <value>D_SOT-23_ANK</value>
+                    <value>D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1377,6 +1383,9 @@
                 <schematic-reference>
                     <reference>D307</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>BAS16HT3G</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -1385,7 +1394,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
-                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                    <value>Diode_SMD:D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
@@ -1393,7 +1402,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
-                    <value>D_SOT-23_ANK</value>
+                    <value>D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1414,15 +1423,15 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
-                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                    <value>Package_TO_SOT_SMD:SOT-23</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
-                    <value>Diode_SMD</value>
+                    <value>Package_TO_SOT_SMD</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
-                    <value>D_SOT-23_ANK</value>
+                    <value>SOT-23</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1435,6 +1444,9 @@
                 <schematic-reference>
                     <reference>D309</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>BAS16HT3G</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -1443,7 +1455,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
-                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                    <value>Diode_SMD:D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
@@ -1451,7 +1463,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
-                    <value>D_SOT-23_ANK</value>
+                    <value>D_SOD-323</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -1464,28 +1476,14 @@
                 <schematic-reference>
                     <reference>D310</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>BZX84C12LT1G</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>12V</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
-                    <value>http://purl.org/ee/part-type#diode</value>
-                </fact>
-            </facts>
-        </part>
-        <part>
-            <references>
-                <schematic-reference>
-                    <reference>D311</reference>
-                </schematic-reference>
-            </references>
-            <facts>
-                <fact>
-                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>BAS16</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
@@ -1508,13 +1506,60 @@
         <part>
             <references>
                 <schematic-reference>
+                    <reference>D311</reference>
+                </schematic-reference>
+                <part-number>
+                    <value>BAS16HT3G</value>
+                </part-number>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#value</key>
+                    <value>BAS16</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOD-323</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOD-323</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#type</key>
+                    <value>http://purl.org/ee/part-type#diode</value>
+                </fact>
+            </facts>
+        </part>
+        <part>
+            <references>
+                <schematic-reference>
                     <reference>D312</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>BZX84C12LT1G</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>12V</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>Diode_SMD:D_SOT-23_ANK</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>Diode_SMD</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>D_SOT-23_ANK</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#type</key>
@@ -3556,6 +3601,18 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>SW_Push</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>TL3315:TL3315</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>TL3315</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>TL3315</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -3569,6 +3626,18 @@
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
                     <value>TestPoint</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>TestPoint:TestPoint_Pad_1.5x1.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>TestPoint</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>TestPoint_Pad_1.5x1.5mm</value>
+                </fact>
             </facts>
         </part>
         <part>
@@ -3580,7 +3649,19 @@
             <facts>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#value</key>
-                    <value>TRANSF6</value>
+                    <value>PA2649NL</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
+                    <value>PAxxxxNL:PAxxxxNL</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
+                    <value>PAxxxxNL</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
+                    <value>PAxxxxNL</value>
                 </fact>
             </facts>
         </part>
@@ -3739,6 +3820,9 @@
                 <schematic-reference>
                     <reference>U302</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>FOD817ASD</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -3747,7 +3831,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#footprint</key>
-                    <value>Package_DIP:DIP-4_W7.62mm</value>
+                    <value>Package_DIP:SMDIP-4_W9.53mm</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-library</key>
@@ -3755,7 +3839,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/trygvis/ee/fact-key#kicad-schematic-footprint</key>
-                    <value>DIP-4_W7.62mm</value>
+                    <value>SMDIP-4_W9.53mm</value>
                 </fact>
             </facts>
         </part>
