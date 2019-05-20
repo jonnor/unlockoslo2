@@ -120,7 +120,7 @@ $EndComp
 Text Notes 3500 800  0    50   ~ 0
 TODO:\no use QFN20 part\no Move TXT/RXT
 Text Notes 150  -50  0    50   ~ 0
-TODO:\n* Ethernet PHY\n  * LED polarities\n* Ethernet PoE\n* ORing\n  * Add valid LEDs. Note that they're biased against Vout.\n* Cuttable PCB traces for LEDs to enable low power?\n* Test points:\n  * Power in\n  * Important data signals\n* Connectors\n  * UEXT (x2?)\n* Check footprints of all parts
+TODO:\n* Ethernet PHY\n  * LED polarities\n* Ethernet PoE\n* ORing\n  * Add valid LEDs. Note that they're biased against Vout.\n* Cuttable PCB traces for LEDs to enable low power?\n* Test points:\n  * Power in\n  * Important data signals\n* Connectors\n  * UEXT (x2?)\n* Check footprints of all parts\n  * footprint\n  * pins
 $Comp
 L Device:R R104
 U 1 1 5CC4A6E7
@@ -252,7 +252,7 @@ U 1 1 5CD096EF
 P 5850 800
 F 0 "J102" V 5814 412 50  0000 R CNN
 F 1 "Conn_01x06" V 5723 412 50  0000 R CNN
-F 2 "" H 5850 800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5850 800 50  0001 C CNN
 F 3 "~" H 5850 800 50  0001 C CNN
 	1    5850 800 
 	0    -1   -1   0   

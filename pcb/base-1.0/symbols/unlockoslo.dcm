@@ -34,6 +34,12 @@ K net tie short
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_PMOS_S1G1S2G2D2D2D1D1
+D Dual PMOS transistor, 6 pin package
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_NMOS_SSSGDDDD
 D N-MOSFET transistor, drain/gate/source
 K transistor NMOS N-MOS N-MOSFET
