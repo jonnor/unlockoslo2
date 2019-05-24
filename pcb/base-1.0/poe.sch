@@ -1573,9 +1573,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 5100 4600 5100
 Wire Wire Line
-	15650 1300 15650 8900
+	15650 1300 15650 8800
 Wire Wire Line
-	11200 8800 15650 8900
+	11200 8800 15650 8800
 Text HLabel 15750 1300 2    50   Output ~ 0
 Vout
 Text HLabel 2000 900  0    50   Input ~ 0
