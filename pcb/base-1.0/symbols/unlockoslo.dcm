@@ -15,12 +15,29 @@ D Power symbol creates a global label with name "+3V3"
 K power-flag
 $ENDCMP
 #
+$CMP +3.3V_USB
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
 $CMP 74984104400
 F https://katalog.we-online.de/pbs/datasheet/74984104400.pdf
 $ENDCMP
 #
 $CMP 74984104400_v2
 F https://katalog.we-online.de/pbs/datasheet/74984104400.pdf
+$ENDCMP
+#
+$CMP CP2102N-A01-GQFN20
+D USB to UART master bridge, QFN-20
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP Conn_UART_5
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP GND_ETH
