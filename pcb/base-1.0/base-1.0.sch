@@ -749,8 +749,9 @@ U 1 1 5D1E158B
 P 1000 4400
 F 0 "J104" H 1057 4725 50  0000 C CNN
 F 1 "Jack-DC" H 1057 4634 50  0000 C CNN
-F 2 "" H 1050 4360 50  0001 C CNN
-F 3 "~" H 1050 4360 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 1050 4360 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/pj-037ah-smt-tr.pdf" H 1050 4360 50  0001 C CNN
+F 4 "PJ-037AH-SMT-TR" H 1000 4400 50  0001 C CNN "mpn"
 	1    1000 4400
 	1    0    0    -1  
 $EndComp
@@ -1454,24 +1455,24 @@ Wire Wire Line
 Wire Wire Line
 	5600 2700 7300 2700
 $Comp
-L Transistor_BJT:BC817 Q102
+L Device:Q_NPN_BEC Q102
 U 1 1 5D35866F
 P 9000 2300
 F 0 "Q102" H 9191 2254 50  0000 L CNN
 F 1 "BC817" H 9191 2345 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9200 2225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 9000 2300 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf" H 9000 2300 50  0001 L CNN
 	1    9000 2300
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:BC817 Q101
+L Device:Q_NPN_BEC Q101
 U 1 1 5D3585A1
 P 9000 1600
 F 0 "Q101" H 9191 1646 50  0000 L CNN
 F 1 "BC817" H 9191 1555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9200 1525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 9000 1600 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf" H 9000 1600 50  0001 L CNN
 	1    9000 1600
 	1    0    0    -1  
 $EndComp
