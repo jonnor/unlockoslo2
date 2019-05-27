@@ -6,6 +6,7 @@ _autosave-*.sch
 
 # for now
 *.ninja
+ee/cache
 ee/*
 !ee/sch.xml
 eeconfig
