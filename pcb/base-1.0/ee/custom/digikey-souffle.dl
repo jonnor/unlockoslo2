@@ -1,0 +1,7 @@
+#include "digikey.dl"
+
+fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
+    fact(part, MOUNTING_TYPE, "Surface Mount"),
+    fact(part, CAPACITANCE, _),
+    fact(part, SURFACE_MOUNT_LAND_SIZE, x),
+    match(".*(8.30mm x 8.30mm).*", x).

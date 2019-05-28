@@ -1,0 +1,20 @@
+#include "kicad.dl"
+
+resistor_lib("IPC-7351-RESC").
+capacitor_lib("IPC-7351-CAPC").
+
+.decl ipc_footprint(metric:symbol, kicad_footprint:symbol)
+// .output ipc_footprint
+
+ipc_footprint(res, kicad) :-
+    fact(_, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", kicad),
+    (match("RESC_....x.*", kicad);match("CAPC_....x.*", kicad)),
+    res_ = substr(kicad, 5, strlen(kicad)-5),
+    res = substr(res_, 0, strlen(res_)-4).
+
+fact(Ref, "http://purl.org/ee/fact-type/footprint", ipc) :-
+    ipc_footprint(ipc, kicad),
+    fact(Ref, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", kicad).
+
+fact(Ref, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
+    fact(Ref, "http://purl.org/ee/kicad-sch-fact-type#footprint", "Capacitor_SMD:CP_Elec_8x10.2").
