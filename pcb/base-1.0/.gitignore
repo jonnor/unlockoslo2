@@ -9,6 +9,7 @@ _autosave-*.sch
 ee/cache
 ee/*
 !ee/sch.xml
+!ee/custom
 eeconfig
 
 env
