@@ -2121,7 +2121,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Capacitor_SMD:C_Elec_8x10.2</value>
+                    <value>Capacitor_SMD:CP_Elec_8x10.2</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -2129,7 +2129,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>C_Elec_8x10.2</value>
+                    <value>CP_Elec_8x10.2</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Voltage</key>
@@ -2142,6 +2142,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>smd capacitor d=8cm</value>
                 </fact>
             </facts>
         </part>
@@ -2217,7 +2221,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Capacitor_SMD:C_Elec_8x10.2</value>
+                    <value>Capacitor_SMD:CP_Elec_8x10.2</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -2225,7 +2229,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>C_Elec_8x10.2</value>
+                    <value>CP_Elec_8x10.2</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Voltage</key>
@@ -2238,6 +2242,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>smd capacitor d=8cm</value>
                 </fact>
             </facts>
         </part>
@@ -2734,6 +2742,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>smd capacitor d=5cm</value>
                 </fact>
             </facts>
         </part>
@@ -3471,6 +3483,10 @@
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#inductor</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>2012</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#FB102">
@@ -3485,7 +3501,7 @@
             <facts>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>MPZ1005S900HT000</value>
+                    <value>FBMJ2125HS250NT</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
@@ -3497,7 +3513,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Inductor_SMD:L_0402_1005Metric</value>
+                    <value>Inductor_SMD:L_0805_2012Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -3505,7 +3521,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>L_0402_1005Metric</value>
+                    <value>L_0805_2012Metric</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
@@ -3514,6 +3530,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#inductor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>2012</value>
                 </fact>
             </facts>
         </part>
@@ -3559,6 +3579,10 @@
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#inductor</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>3216</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#FB302">
@@ -3602,6 +3626,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#inductor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>3216</value>
                 </fact>
             </facts>
         </part>

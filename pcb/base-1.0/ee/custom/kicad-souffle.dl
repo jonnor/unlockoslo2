@@ -3,18 +3,26 @@
 resistor_lib("IPC-7351-RESC").
 capacitor_lib("IPC-7351-CAPC").
 
-.decl ipc_footprint(metric:symbol, kicad_footprint:symbol)
-// .output ipc_footprint
+.decl kicad_to_ipc(metric:symbol, kicad_footprint:symbol)
+.output kicad_to_ipc
 
-ipc_footprint(res, kicad) :-
+kicad_to_ipc(kicad, res) :-
     fact(_, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", kicad),
     (match("RESC_....x.*", kicad);match("CAPC_....x.*", kicad)),
     res_ = substr(kicad, 5, strlen(kicad)-5),
     res = substr(res_, 0, strlen(res_)-4).
 
-fact(Ref, "http://purl.org/ee/fact-type/footprint", ipc) :-
-    ipc_footprint(ipc, kicad),
-    fact(Ref, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", kicad).
+kicad_to_ipc("L_0805_2012Metric", "2012").
+kicad_to_ipc("L_1206_3216Metric", "3216").
 
-fact(Ref, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
-    fact(Ref, "http://purl.org/ee/kicad-sch-fact-type#footprint", "Capacitor_SMD:CP_Elec_8x10.2").
+fact(part, "http://purl.org/ee/fact-type/footprint", ipc) :-
+    fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", footprint),
+    kicad_to_ipc(footprint, ipc).
+
+fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
+    fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint", footprint),
+    (footprint="Capacitor_SMD:CP_Elec_8x10.2").
+
+fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=5cm") :-
+    fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint", footprint),
+    (footprint="Capacitor_SMD:CP_Elec_5x5.4").
