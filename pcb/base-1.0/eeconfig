@@ -1,0 +1,16 @@
+[project]
+uuid = 93b46751-0f9d-4120-807c-fc69c9318668
+
+[kicad-project]
+uuid = 3d31db09-0f22-48eb-b488-3f340e7e1d35
+sch = base-1.0.sch
+pcb = base-1.0.kicad_pcb
+functions = ee.kicad.functions.default
+function-arguments = 
+
+[supplier:digikey]
+function = ee.digikey.functions.default
+
+[seeed-opl]
+opls = SEEED, HQCHIP
+
