@@ -45,6 +45,12 @@ D Power symbol creates a global label with name "GND" , ground
 K power-flag
 $ENDCMP
 #
+$CMP MCP23S08_QFN
+D 8-Bit I/O Expander with SPI Interface
+K SPI expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
 $CMP Net-Tie_3_to_1
 D Net tie, 4 pins, cross
 K net tie short
