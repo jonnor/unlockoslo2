@@ -865,6 +865,7 @@ F 0 "TR301" H 9800 2082 50  0000 C CNN
 F 1 "PA2649NL" H 9800 1991 50  0000 C CNN
 F 2 "PAxxxxNL:PAxxxxNL" H 9800 1600 50  0001 C CNN
 F 3 "http://productfinder.pulseeng.com/products/datasheets/P675.pdf" H 9800 1600 50  0001 C CNN
+F 4 "PA2649NL" H 9800 1600 50  0001 C CNN "mpn"
 	1    9800 1600
 	1    0    0    -1  
 $EndComp

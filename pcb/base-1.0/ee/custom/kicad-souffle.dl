@@ -1,7 +1,20 @@
 #include "kicad.dl"
 
+// Symbol libraries that indicate basic components
 resistor_lib("IPC-7351-RESC").
 capacitor_lib("IPC-7351-CAPC").
+
+// Symbols that should be classified as net ties
+net_tie_symbol("unlockoslo", "Net-Tie_3_to_1").
+
+// Mappings from kicad's footprints to common footprint
+.decl kicad_footprint_to_common(library:symbol, footprint:symbol, common:symbol)
+
+kicad_footprint_to_common("Package_SO", "PowerIntegrations_SO-8", "SO-8 Single").
+kicad_footprint_to_common("Package_TO_SOT_SMD", "SOT-23", "SOT-23-3").
+kicad_footprint_to_common("Diode_SMD", "D_SOD-323", "SOD-323").
+kicad_footprint_to_common("Diode_SMD", "D_SMA", "SMA").
+kicad_footprint_to_common("Package_TO_SOT_SMD", "TO-269AA", "TO-269AA").
 
 .decl kicad_to_ipc(metric:symbol, kicad_footprint:symbol)
 .output kicad_to_ipc
@@ -26,3 +39,8 @@ fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
 fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=5cm") :-
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint", footprint),
     (footprint="Capacitor_SMD:CP_Elec_5x5.4").
+
+fact(part, "http://purl.org/ee/fact-type/footprint", common) :-
+    fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-library", library),
+    fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", name),
+    kicad_footprint_to_common(library, name, common).

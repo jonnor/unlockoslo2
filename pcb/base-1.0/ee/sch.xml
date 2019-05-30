@@ -2800,10 +2800,6 @@
                     <value>5 mA</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#Vf</key>
-                    <value>~</value>
-                </fact>
-                <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#V</key>
                     <value>3.3</value>
                 </fact>
@@ -2987,6 +2983,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>CDBHD1100L-G</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>TO-269AA</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#D302">
@@ -3026,6 +3026,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>CDBHD1100L-G</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>TO-269AA</value>
                 </fact>
             </facts>
         </part>
@@ -3071,6 +3075,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>SMAJ58A</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SMA</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#D304">
@@ -3110,6 +3118,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>SMAJ58A</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SMA</value>
                 </fact>
             </facts>
         </part>
@@ -3151,6 +3163,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BAS16HT3G</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOD-323</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#D306">
@@ -3190,6 +3206,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BAS16HT3G</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOD-323</value>
                 </fact>
             </facts>
         </part>
@@ -3231,6 +3251,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BAS16HT3G</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOD-323</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#D308">
@@ -3271,6 +3295,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BAV99,235</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOT-23-3</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#D309">
@@ -3310,6 +3338,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BAS16HT3G</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOD-323</value>
                 </fact>
             </facts>
         </part>
@@ -3390,6 +3422,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BAS16HT3G</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOD-323</value>
                 </fact>
             </facts>
         </part>
@@ -3817,6 +3853,9 @@
                 <schematic-reference>
                     <reference>J106</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>PPPC202LFBN-RC</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -3842,6 +3881,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>PinHeader_2x20_P2.54mm_Vertical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>PPPC202LFBN-RC</value>
                 </fact>
             </facts>
         </part>
@@ -3902,6 +3945,9 @@
                 <schematic-reference>
                     <reference>L102</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>NRS8040T220MJGJ</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -3934,6 +3980,10 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Imin</key>
+                    <value>2A</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>NRS8040T220MJGJ</value>
                 </fact>
                 <fact>
@@ -4093,6 +4143,10 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>NetTie-2_SMD_Pad0.5mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT102">
@@ -4125,6 +4179,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>NetTie-2_SMD_Pad0.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
             </facts>
         </part>
@@ -4159,6 +4217,10 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>NetTie-4_SMD_Pad0.5mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT301">
@@ -4191,6 +4253,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>NetTie-4_SMD_Pad0.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
             </facts>
         </part>
@@ -4232,6 +4298,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BC817,235</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOT-23-3</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#Q102">
@@ -4271,6 +4341,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>BC817,235</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOT-23-3</value>
                 </fact>
             </facts>
         </part>
@@ -4312,6 +4386,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>DMP2305U-7</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOT-23-3</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#Q201">
@@ -4351,6 +4429,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>IRF7324TRPBF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SO-8 Single</value>
                 </fact>
             </facts>
         </part>
@@ -4392,6 +4474,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>IRF7324TRPBF</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SO-8 Single</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#Q203">
@@ -4431,6 +4517,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>IRF7324TRPBF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SO-8 Single</value>
                 </fact>
             </facts>
         </part>
@@ -4512,6 +4602,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>SI2325DS-T1-E3</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOT-23-3</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#Q303">
@@ -4592,6 +4686,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>MMBTA06-TP</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOT-23-3</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#Q305">
@@ -4632,6 +4730,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>MMBTA06-TP</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SOT-23-3</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#Q306">
@@ -4671,6 +4773,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>SI4850EY-T1-E3</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>SO-8 Single</value>
                 </fact>
             </facts>
         </part>
@@ -7053,7 +7159,7 @@
             <facts>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>SW_Push</value>
+                    <value>TL3315NF100Q</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
@@ -7108,6 +7214,10 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>TestPoint_Pad_1.5x1.5mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#test-point</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#TP102">
@@ -7144,6 +7254,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#assembly</key>
                     <value>footprint only</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#test-point</value>
                 </fact>
             </facts>
         </part>
@@ -7182,6 +7296,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#assembly</key>
                     <value>footprint only</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#test-point</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#TR301">
@@ -7189,6 +7307,9 @@
                 <schematic-reference>
                     <reference>TR301</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>PA2649NL</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -7214,6 +7335,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>PAxxxxNL</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>PA2649NL</value>
                 </fact>
             </facts>
         </part>
