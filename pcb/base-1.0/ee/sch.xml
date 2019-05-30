@@ -1405,6 +1405,47 @@
                 </fact>
             </facts>
         </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#C128">
+            <references>
+                <schematic-reference>
+                    <reference>C128</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>100nF</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>C</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>IPC-7351-CAPC:CAPC_2012x040</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>IPC-7351-CAPC</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>CAPC_2012x040</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#capacitor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>2012</value>
+                </fact>
+            </facts>
+        </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#C201">
             <references>
                 <schematic-reference>
@@ -2121,7 +2162,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Capacitor_SMD:CP_Elec_8x10.2</value>
+                    <value>Capacitor_SMD:CP_Elec_8x10</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -2129,7 +2170,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>CP_Elec_8x10.2</value>
+                    <value>CP_Elec_8x10</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Voltage</key>
@@ -2142,10 +2183,6 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/footprint</key>
-                    <value>smd capacitor d=8cm</value>
                 </fact>
             </facts>
         </part>
@@ -2221,7 +2258,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Capacitor_SMD:CP_Elec_8x10.2</value>
+                    <value>Capacitor_SMD:CP_Elec_8x10</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -2229,7 +2266,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>CP_Elec_8x10.2</value>
+                    <value>CP_Elec_8x10</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Voltage</key>
@@ -2242,10 +2279,6 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/footprint</key>
-                    <value>smd capacitor d=8cm</value>
                 </fact>
             </facts>
         </part>
@@ -2669,7 +2702,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Capacitor_SMD:CP_Elec_8x10.2</value>
+                    <value>Capacitor_SMD:CP_Elec_8x10</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -2677,7 +2710,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>CP_Elec_8x10.2</value>
+                    <value>CP_Elec_8x10</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Voltage</key>
@@ -2690,10 +2723,6 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#capacitor</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/footprint</key>
-                    <value>smd capacitor d=8cm</value>
                 </fact>
             </facts>
         </part>
@@ -3669,6 +3698,138 @@
                 </fact>
             </facts>
         </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H101">
+            <references>
+                <schematic-reference>
+                    <reference>H101</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Mechanical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>MountingHole:MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>MountingHole_2.5mm</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H102">
+            <references>
+                <schematic-reference>
+                    <reference>H102</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Mechanical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>MountingHole:MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>MountingHole_2.5mm</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H103">
+            <references>
+                <schematic-reference>
+                    <reference>H103</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Mechanical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>MountingHole:MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>MountingHole_2.5mm</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H104">
+            <references>
+                <schematic-reference>
+                    <reference>H104</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Mechanical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>MountingHole:MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>MountingHole_2.5mm</value>
+                </fact>
+            </facts>
+        </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#J101">
             <references>
                 <schematic-reference>
@@ -3860,7 +4021,7 @@
             <facts>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>Raspberry_Pi_2_3</value>
+                    <value>RPI_HEADER</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
@@ -4244,7 +4405,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>NetTie:NetTie-4_SMD_Pad0.5mm</value>
+                    <value>NetTie:NetTie-3_SMD_Pad0.5mm</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -4252,7 +4413,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-4_SMD_Pad0.5mm</value>
+                    <value>NetTie-3_SMD_Pad0.5mm</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
@@ -6696,6 +6857,9 @@
                 <schematic-reference>
                     <reference>R311</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>RL1206FR-070R12L</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -6712,7 +6876,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>IPC-7351-RESC:RESC_1005x015</value>
+                    <value>IPC-7351-RESC:RESC_3216x040</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -6720,11 +6884,15 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>RESC_1005x015</value>
+                    <value>RESC_3216x040</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#power</key>
-                    <value>12W</value>
+                    <value>0.25W</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>RL1206FR-070R12L</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
@@ -6732,7 +6900,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/fact-type/footprint</key>
-                    <value>1005</value>
+                    <value>3216</value>
                 </fact>
             </facts>
         </part>
@@ -7044,7 +7212,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>IPC-7351-RESC:RESC_1005x015</value>
+                    <value>IPC-7351-RESC:RESC_3216x040</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -7052,7 +7220,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>RESC_1005x015</value>
+                    <value>RESC_3216x040</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Power</key>
@@ -7064,7 +7232,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/fact-type/footprint</key>
-                    <value>1005</value>
+                    <value>3216</value>
                 </fact>
             </facts>
         </part>
@@ -7318,11 +7486,11 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>Transformer</value>
+                    <value>unlockoslo</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>TRANSF6</value>
+                    <value>PA2649NL</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
@@ -7557,6 +7725,39 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Vout</key>
                     <value>12V</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#U107">
+            <references>
+                <schematic-reference>
+                    <reference>U107</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>MCP23S17</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Interface_Expansion</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>MCP23S17_ML</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>Package_DFN_QFN</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm</value>
                 </fact>
             </facts>
         </part>

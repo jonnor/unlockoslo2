@@ -4,6 +4,9 @@
 _autosave-*.sch
 *.kicad_pcb-bak
 
+# For now, until the PCB is more ready
+prod
+
 # for now
 *.ninja
 ee/cache
