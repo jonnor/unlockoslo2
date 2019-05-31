@@ -62,9 +62,9 @@ $EndComp
 Wire Wire Line
 	10400 1500 10400 2400
 Wire Wire Line
-	14000 2200 14000 2900
+	14000 2200 14000 2300
 Wire Wire Line
-	14000 1800 14000 1300
+	14000 1800 14000 1700
 Connection ~ 14000 1300
 Wire Wire Line
 	14000 1300 14200 1300
@@ -104,7 +104,7 @@ Wire Wire Line
 	15250 1300 15650 1300
 Connection ~ 15250 1300
 Wire Wire Line
-	10400 2900 11000 2900
+	10400 2900 10900 2900
 Wire Wire Line
 	14000 2900 13300 2900
 Wire Wire Line
@@ -148,8 +148,6 @@ Wire Wire Line
 Wire Wire Line
 	11600 2800 11600 2900
 Connection ~ 11600 2900
-Wire Wire Line
-	11600 2900 11400 2900
 Wire Wire Line
 	11600 2500 11600 1900
 Wire Wire Line
@@ -851,7 +849,7 @@ F 5 "CL05B222KB5NNNC" H 9800 2600 50  0001 C CNN "mpn"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q306
+L unlockoslo:Q_NMOS_SSSGDDDD Q306
 U 1 1 5CD3035C
 P 13900 2000
 F 0 "Q306" H 14106 2046 50  0000 L CNN
@@ -947,18 +945,6 @@ F 4 "16V" H 15365 1959 50  0000 L CNN "Voltage"
 F 5 "865080442004" H 15250 2050 50  0001 C CNN "mpn"
 	1    15250 2050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_DGS Q303
-U 1 1 5CD30E7C
-P 11200 2800
-F 0 "Q303" V 11451 2800 50  0000 C CNN
-F 1 "Si7852DP" V 11542 2800 50  0000 C CNN
-F 2 "Package_SO:PowerPAK_SO-8_Single" H 11400 2900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/71627/si7852dp.pdf" H 11200 2800 50  0001 C CNN
-F 4 "SI7852DP-T1-E3" H 11200 2800 50  0001 C CNN "mpn"
-	1    11200 2800
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:Q_NPN_BCE Q304
@@ -1725,4 +1711,59 @@ Wire Wire Line
 Connection ~ 5700 1800
 Text Label 5750 6600 0    50   ~ 0
 GAT2
+Wire Wire Line
+	11000 3000 10900 3000
+Wire Wire Line
+	10900 3000 10900 2900
+Connection ~ 10900 2900
+Wire Wire Line
+	10900 2900 11000 2900
+Wire Wire Line
+	11000 3100 10900 3100
+Wire Wire Line
+	10900 3100 10900 3000
+Connection ~ 10900 3000
+Wire Wire Line
+	11400 2900 11600 2900
+$Comp
+L unlockoslo:Q_NMOS_SSSGD Q303
+U 1 1 5CD30E7C
+P 11200 2800
+F 0 "Q303" V 11000 2500 50  0000 C CNN
+F 1 "Si7852DP" V 11750 2800 50  0000 C CNN
+F 2 "Package_SO:PowerPAK_SO-8_Single" H 11400 2900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/71627/si7852dp.pdf" H 11200 2800 50  0001 C CNN
+F 4 "SI7852DP-T1-E3" H 11200 2800 50  0001 C CNN "mpn"
+	1    11200 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14100 2200 14100 2300
+Wire Wire Line
+	14100 2300 14000 2300
+Connection ~ 14000 2300
+Wire Wire Line
+	14000 2300 14000 2900
+Wire Wire Line
+	14100 2300 14200 2300
+Wire Wire Line
+	14200 2300 14200 2200
+Connection ~ 14100 2300
+Wire Wire Line
+	14100 1800 14100 1700
+Wire Wire Line
+	14100 1700 14000 1700
+Connection ~ 14000 1700
+Wire Wire Line
+	14000 1700 14000 1300
+Wire Wire Line
+	14100 1700 14200 1700
+Wire Wire Line
+	14200 1700 14200 1800
+Connection ~ 14100 1700
+Wire Wire Line
+	14200 1700 14300 1700
+Wire Wire Line
+	14300 1700 14300 1800
+Connection ~ 14200 1700
 $EndSCHEMATC

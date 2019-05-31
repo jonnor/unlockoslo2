@@ -66,6 +66,12 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_NMOS_SSSGD
+D N-MOSFET transistor, drain/gate/source
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_NMOS_SSSGDDDD
 D N-MOSFET transistor, drain/gate/source
 K transistor NMOS N-MOS N-MOSFET
