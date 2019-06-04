@@ -1,4 +1,4 @@
-update=Mon 03 Jun 2019 15:13:29 CEST
+update=Tue 04 Jun 2019 03:06:16 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -34,10 +34,11 @@ TrackWidth3=0.15
 TrackWidth4=0.2
 TrackWidth5=0.3
 TrackWidth6=0.4
-TrackWidth7=0.8
-TrackWidth8=1
-TrackWidth9=1.4
-TrackWidth10=2
+TrackWidth7=0.6
+TrackWidth8=0.8
+TrackWidth9=1
+TrackWidth10=1.4
+TrackWidth11=2
 ViaDiameter1=0.5
 ViaDrill1=0.25
 ViaDiameter2=0.5
@@ -265,11 +266,33 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=Power_0.8
+Name=Power_0.6
 Clearance=0.3
+TrackWidth=0.6
+ViaDiameter=0.5
+ViaDrill=0.25
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=Power_0.8
+Clearance=0.2
 TrackWidth=0.8
 ViaDiameter=0.8
 ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
+Name=Size_0.2__0.5
+Clearance=0.2
+TrackWidth=0.2
+ViaDiameter=0.5
+ViaDrill=0.25
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
