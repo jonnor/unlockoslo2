@@ -9,4 +9,5 @@
   (lib (name IPC-7351-RESC)(type KiCad)(uri ${KIPRJMOD}/../../thirdparty/IPC-7351-footprints-generator/IPC-7351-RESC.pretty)(options "")(descr ""))
   (lib (name IPC-7351-LEDSC)(type KiCad)(uri ${KIPRJMOD}/../../thirdparty/IPC-7351-footprints-generator/IPC-7351-LEDSC.pretty)(options "")(descr ""))
   (lib (name IPC-7351-CAPC)(type KiCad)(uri ${KIPRJMOD}/../../thirdparty/IPC-7351-footprints-generator/IPC-7351-CAPC.pretty)(options "")(descr ""))
+  (lib (name UnlockOslo)(type KiCad)(uri /home/trygvis/dev/com.github/trygvis/unlockoslo2/pcb/footprints/UnlockOslo.pretty)(options "")(descr ""))
 )

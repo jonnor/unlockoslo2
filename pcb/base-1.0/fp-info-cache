@@ -1,4 +1,4 @@
-16093250753163880
+16096328491414913
 10118194
 10118194
 
@@ -71686,6 +71686,20 @@ transformer flyback
 0
 10
 10
+UnlockOslo
+NetTie-2_SMD_Pad0.15mm
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
+UnlockOslo
+NetTie-2_SMD_Pad0.20mm
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

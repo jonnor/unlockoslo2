@@ -1,4 +1,4 @@
-(module 74984104400 (layer F.Cu) (tedit 5CF6AC95)
+(module 74984104400 (layer F.Cu) (tedit 5CF6D369)
   (fp_text reference REF** (at 8.75 -0.5 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -26,7 +26,7 @@
   (pad "" np_thru_hole circle (at 5.751 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at -7.875 3.05) (size 1.5 1.5) (drill 0.89) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 7.875 3.05) (size 1.5 1.5) (drill 0.89) (layers *.Cu *.Mask))
-  (model "WE-LAN-74984104400 rev1.stp"
+  (model ":unlockoslo2-74984104400:WE-LAN-74984104400 rev1.stp"
     (offset (xyz 0 10.7 6.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))
