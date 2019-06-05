@@ -448,25 +448,6 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Net-Tie_3
-#
-DEF Device_Net-Tie_3 NT 0 0 N N 1 F N
-F0 "NT" 0 50 50 H V C CNN
-F1 "Device_Net-Tie_3" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Net*Tie*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -50 0 50 0 N
-P 3 0 1 20 0 0 0 -100 -50 -100 N
-X 1 1 -100 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-X 3 3 -100 -100 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Q_NPN_BCE
 #
 DEF Device_Q_NPN_BCE Q 0 0 Y N 1 F N
@@ -1164,6 +1145,26 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND_ETH 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# unlockoslo_Net-Tie_3_to_1
+#
+DEF unlockoslo_Net-Tie_3_to_1 NT 0 0 N N 1 F N
+F0 "NT" 25 50 50 H V L CNN
+F1 "unlockoslo_Net-Tie_3_to_1" 25 -50 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Net*Tie*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -50 0 50 0 N
+P 4 0 1 20 0 -150 0 -200 0 0 0 -50 N
+X 1 1 -100 0 100 R 50 50 1 1 P
+X 2 2 -100 -100 100 R 50 50 1 1 P
+X 3 3 -100 -200 100 R 50 50 1 1 P
+X 4 4 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

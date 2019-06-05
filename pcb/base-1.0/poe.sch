@@ -276,9 +276,9 @@ Connection ~ 4400 3500
 Wire Wire Line
 	4400 2400 4400 3500
 Text Label 4000 3500 0    50   ~ 0
-ETH_VSS
+VSS_ETH
 Text Label 4100 1300 0    50   ~ 0
-ETH_VDD
+VDD_ETH
 Wire Wire Line
 	2700 3300 2700 3400
 Wire Wire Line
@@ -1771,7 +1771,7 @@ U 1 1 5D701FEB
 P 5000 7800
 F 0 "NT203" H 5000 7700 50  0000 C CNN
 F 1 "Net-Tie_2" V 5045 7844 50  0001 L CNN
-F 2 "UnlockOslo:NetTie-2_SMD_Pad0.15mm" H 5000 7800 50  0001 C CNN
+F 2 "UnlockOslo:NetTie-2_SMD_Pad0.20mm" H 5000 7800 50  0001 C CNN
 F 3 "~" H 5000 7800 50  0001 C CNN
 	1    5000 7800
 	0    1    1    0   
