@@ -2196,10 +2196,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 6200 1000 6200
 Wire Wire Line
-	1000 5900 1000 6200
-Wire Wire Line
-	900  6100 1200 6100
-Wire Wire Line
 	2400 6100 2500 6100
 Wire Wire Line
 	1300 4300 2600 4300
@@ -2899,19 +2895,6 @@ F 3 "~" H 3500 8850 50  0001 C CNN
 	1    3500 8850
 	1    0    0    -1  
 $EndComp
-Connection ~ 900  6100
-Wire Wire Line
-	900  6100 900  5800
-Connection ~ 1000 6200
-Connection ~ 1100 6300
-Wire Wire Line
-	1100 6300 1100 6000
-Connection ~ 1200 6100
-Wire Wire Line
-	1200 6100 1300 6100
-Connection ~ 1200 6400
-Wire Wire Line
-	1200 6400 1200 6100
 Wire Wire Line
 	3500 8600 3500 8700
 Text Label 3450 9800 2    50   ~ 0
@@ -3040,4 +3023,6 @@ Wire Wire Line
 Connection ~ 2300 9100
 Wire Wire Line
 	2300 9100 4200 9100
+Wire Wire Line
+	900  6100 1300 6100
 $EndSCHEMATC

@@ -159,7 +159,7 @@ Wire Wire Line
 Text Notes 2400 -850 0    50   ~ 0
 TODO:\n* Calculate resistor values
 Wire Wire Line
-	6500 5500 10550 5500
+	6500 5500 10750 5500
 Connection ~ 5900 1900
 Wire Wire Line
 	5900 1800 5900 1900
@@ -170,8 +170,6 @@ Wire Wire Line
 	9500 1800 9500 1900
 Wire Wire Line
 	9300 1800 9500 1800
-Wire Wire Line
-	9500 3400 10250 3400
 Wire Wire Line
 	9500 1900 9500 3400
 Wire Wire Line
@@ -457,26 +455,13 @@ Text HLabel 1100 900  0    50   Input ~ 0
 Vin_adapter
 Text HLabel 1100 800  0    50   Input ~ 0
 Vin_PoE
-Text HLabel 10750 3400 2    50   Input ~ 0
+Text HLabel 10950 3400 2    50   Input ~ 0
 Vout
 Wire Wire Line
-	10550 3400 10750 3400
-Connection ~ 10550 3400
+	10750 3400 10950 3400
+Connection ~ 10750 3400
 Wire Wire Line
-	10450 3400 10550 3400
-$Comp
-L unlockoslo:Net-Tie_3_to_1 NT201
-U 1 1 5D02029B
-P 10350 3400
-F 0 "NT201" H 10350 3500 50  0000 C CNN
-F 1 "Net-Tie_3_to_1" H 10350 3490 50  0001 C CNN
-F 2 "NetTie:NetTie-4_SMD_Pad0.5mm" H 10350 3400 50  0001 C CNN
-F 3 "~" H 10350 3400 50  0001 C CNN
-	1    10350 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 5500 10550 3400
+	10750 5500 10750 3400
 Connection ~ 1400 2200
 Wire Wire Line
 	1400 2200 1400 1350
@@ -709,9 +694,9 @@ Wire Wire Line
 Wire Wire Line
 	4600 5000 4600 4100
 Wire Wire Line
-	7700 3500 10250 3500
+	7700 3500 10050 3500
 Wire Wire Line
-	5900 3600 10250 3600
+	5900 3600 10050 3600
 Wire Wire Line
 	7700 1900 7700 3500
 Wire Wire Line
@@ -816,10 +801,38 @@ Wire Wire Line
 	5200 1900 5200 2400
 Wire Wire Line
 	5100 1900 5200 1900
-Text Label 10250 3600 2    50   ~ 0
+Text Label 10050 3600 2    50   ~ 0
 Vin_USB_sel
-Text Label 10250 3500 2    50   ~ 0
+Text Label 10050 3500 2    50   ~ 0
 Vin_adapter_sel
-Text Label 10250 3400 2    50   ~ 0
+Text Label 10050 3400 2    50   ~ 0
 Vin_PoE_sel
+$Comp
+L Device:Net-Tie_3 NT2
+U 1 1 5D13BBF9
+P 10150 3500
+F 0 "NT2" H 10150 3311 50  0000 C CNN
+F 1 "Net-Tie_3" H 10150 3590 50  0001 C CNN
+F 2 "UnlockOslo:NetTie-3_SMD_Pad0.5mm_132" H 10150 3500 50  0001 C CNN
+F 3 "~" H 10150 3500 50  0001 C CNN
+	1    10150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Net-Tie_3 NT1
+U 1 1 5D13CB32
+P 10450 3400
+F 0 "NT1" H 10450 3489 50  0000 C CNN
+F 1 "Net-Tie_3" H 10450 3490 50  0001 C CNN
+F 2 "UnlockOslo:NetTie-3_SMD_Pad0.5mm_132" H 10450 3400 50  0001 C CNN
+F 3 "~" H 10450 3400 50  0001 C CNN
+	1    10450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3400 10750 3400
+Wire Wire Line
+	9500 3400 10350 3400
+Wire Wire Line
+	10250 3500 10350 3500
 $EndSCHEMATC
