@@ -44,3 +44,12 @@ fact(part, "http://purl.org/ee/fact-type/footprint", common) :-
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-library", library),
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", name),
     kicad_footprint_to_common(library, name, common).
+/*
+.decl skip_order(ref:symbol)
+
+skip_order(Ref) :- net_tie(Ref).
+//    fact(Ref, "http://purl.org/ee/fact-type/ee-component-type", "http://purl.org/ee/part-type#net-tie").
+
+fact(Part, "http://purl.org/ee/fact-type/order-part", "no") :- skip_order(Part).
+fact(Part, "http://purl.org/ee/fact-type/skip-from-order", "yes") :- part(Part, _), !skip_order(Part).
+*/

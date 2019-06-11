@@ -392,54 +392,6 @@
                 </fact>
             </facts>
         </part>
-        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#C109">
-            <references>
-                <schematic-reference>
-                    <reference>C109</reference>
-                </schematic-reference>
-                <part-number>
-                    <value>CL05A105MQ5NNNC</value>
-                </part-number>
-            </references>
-            <facts>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>1uF</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>Device</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>C</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>IPC-7351-CAPC:CAPC_1005x015</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>IPC-7351-CAPC</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>CAPC_1005x015</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
-                    <value>CL05A105MQ5NNNC</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
-                    <value>http://purl.org/ee/part-type#capacitor</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/footprint</key>
-                    <value>1005</value>
-                </fact>
-            </facts>
-        </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#C110">
             <references>
                 <schematic-reference>
@@ -1410,6 +1362,9 @@
                 <schematic-reference>
                     <reference>C128</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>CL05B104KO5NNNC</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -1435,6 +1390,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>CAPC_2012x040</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>CL05B104KO5NNNC</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
@@ -4294,19 +4253,15 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>NetTie:NetTie-2_SMD_Pad0.5mm</value>
+                    <value>UnlockOslo:NetTie-2_SMD_Pad0.15mm</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>NetTie</value>
+                    <value>UnlockOslo</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-2_SMD_Pad0.5mm</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
-                    <value>http://purl.org/ee/part-type#net-tie</value>
+                    <value>NetTie-2_SMD_Pad0.15mm</value>
                 </fact>
             </facts>
         </part>
@@ -4331,56 +4286,81 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>NetTie:NetTie-2_SMD_Pad0.5mm</value>
+                    <value>UnlockOslo:NetTie-2_SMD_Pad0.15mm</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>NetTie</value>
+                    <value>UnlockOslo</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-2_SMD_Pad0.5mm</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
-                    <value>http://purl.org/ee/part-type#net-tie</value>
+                    <value>NetTie-2_SMD_Pad0.15mm</value>
                 </fact>
             </facts>
         </part>
-        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT201">
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT202">
             <references>
                 <schematic-reference>
-                    <reference>NT201</reference>
+                    <reference>NT202</reference>
                 </schematic-reference>
             </references>
             <facts>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>Net-Tie_3_to_1</value>
+                    <value>Net-Tie_2</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>unlockoslo</value>
+                    <value>Device</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>Net-Tie_3_to_1</value>
+                    <value>Net-Tie_2</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>NetTie:NetTie-4_SMD_Pad0.5mm</value>
+                    <value>UnlockOslo:NetTie-2_SMD_Pad0.20mm</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>NetTie</value>
+                    <value>UnlockOslo</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-4_SMD_Pad0.5mm</value>
+                    <value>NetTie-2_SMD_Pad0.20mm</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT203">
+            <references>
+                <schematic-reference>
+                    <reference>NT203</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>Net-Tie_2</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
-                    <value>http://purl.org/ee/part-type#net-tie</value>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>Net-Tie_2</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>UnlockOslo:NetTie-2_SMD_Pad0.15mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>UnlockOslo</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>NetTie-2_SMD_Pad0.15mm</value>
                 </fact>
             </facts>
         </part>
@@ -4393,7 +4373,7 @@
             <facts>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>Net-Tie_3_Tee</value>
+                    <value>Net-Tie_3</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
@@ -4401,23 +4381,52 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>Net-Tie_3_Tee</value>
+                    <value>Net-Tie_3</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>NetTie:NetTie-3_SMD_Pad0.5mm</value>
+                    <value>UnlockOslo:NetTie-3_SMD_Pad0.5mm_132</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>NetTie</value>
+                    <value>UnlockOslo</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-3_SMD_Pad0.5mm</value>
+                    <value>NetTie-3_SMD_Pad0.5mm_132</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT302">
+            <references>
+                <schematic-reference>
+                    <reference>NT302</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>Net-Tie_3</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
-                    <value>http://purl.org/ee/part-type#net-tie</value>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>Net-Tie_3</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>UnlockOslo:NetTie-3_SMD_Pad0.5mm_132</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>UnlockOslo</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>NetTie-3_SMD_Pad0.5mm_132</value>
                 </fact>
             </facts>
         </part>
@@ -4785,11 +4794,11 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>Device</value>
+                    <value>unlockoslo</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>Q_NMOS_DGS</value>
+                    <value>Q_NMOS_SSSGD</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
@@ -4913,11 +4922,11 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>Device</value>
+                    <value>unlockoslo</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>Q_NMOS_DGS</value>
+                    <value>Q_NMOS_SSSGDDDD</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
@@ -5935,6 +5944,170 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
                     <value>RC1005F561CS</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>1005</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#R124">
+            <references>
+                <schematic-reference>
+                    <reference>R124</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>49.9</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>R</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>IPC-7351-RESC:RESC_1005x015</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>IPC-7351-RESC</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>RESC_1005x015</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>1005</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#R125">
+            <references>
+                <schematic-reference>
+                    <reference>R125</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>49.9</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>R</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>IPC-7351-RESC:RESC_1005x015</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>IPC-7351-RESC</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>RESC_1005x015</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>1005</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#R126">
+            <references>
+                <schematic-reference>
+                    <reference>R126</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>49.9</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>R</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>IPC-7351-RESC:RESC_1005x015</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>IPC-7351-RESC</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>RESC_1005x015</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#resistor</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/footprint</key>
+                    <value>1005</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#R127">
+            <references>
+                <schematic-reference>
+                    <reference>R127</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>49.9</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>R</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>IPC-7351-RESC:RESC_1005x015</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>IPC-7351-RESC</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>RESC_1005x015</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
@@ -7278,43 +7451,6 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/footprint</key>
                     <value>1005</value>
-                </fact>
-            </facts>
-        </part>
-        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#RN101">
-            <references>
-                <schematic-reference>
-                    <reference>RN101</reference>
-                </schematic-reference>
-            </references>
-            <facts>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>R_Network04</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>Device</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>R_Network04</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Resistor_THT:R_Array_SIP5</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>Resistor_THT</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>R_Array_SIP5</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
-                    <value>http://purl.org/ee/part-type#resistor</value>
                 </fact>
             </facts>
         </part>
