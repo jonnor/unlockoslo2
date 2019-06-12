@@ -28,6 +28,7 @@ F 0 "U102" H 5500 10900 50  0000 R CNN
 F 1 "LAN8720A" H 5500 10800 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 4950 8550 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf" H 4700 8650 50  0001 C CNN
+F 4 "LAN8720A-CP-TR" H 4900 9600 50  0001 C CNN "mpn"
 	1    4900 9600
 	-1   0    0    -1  
 $EndComp
@@ -687,17 +688,6 @@ F 3 "~" H 2700 1550 50  0001 C CNN
 	1    2700 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L unlockoslo:Conn_UART_5 J102
-U 1 1 5CD096EF
-P 6150 800
-F 0 "J102" V 6200 400 50  0000 C CNN
-F 1 "UART" V 6100 400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6150 800 50  0001 C CNN
-F 3 "~" H 6150 800 50  0001 C CNN
-	1    6150 800 
-	0    -1   -1   0   
-$EndComp
 Text Label 6800 1700 2    50   ~ 0
 RTS
 Text Label 6800 1800 2    50   ~ 0
@@ -1008,17 +998,6 @@ Wire Wire Line
 	3100 2400 4400 2400
 Wire Wire Line
 	2700 1850 3100 1850
-$Comp
-L Connector_Generic:Conn_01x02 J105
-U 1 1 5D4F648E
-P 6350 2400
-F 0 "J105" H 6430 2392 50  0000 L CNN
-F 1 "USB_GPIO" H 6430 2301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6350 2400 50  0001 C CNN
-F 3 "~" H 6350 2400 50  0001 C CNN
-	1    6350 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 1600 7100 1700
 Connection ~ 7100 1700
@@ -2354,6 +2333,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6" H 13250 5900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps54202.pdf" H 13250 5900 50  0001 C CNN
 F 4 "2A" H 13550 6600 50  0000 L CNN "Iout"
 F 5 "3.3V" H 13550 6700 50  0000 L CNN "Vout"
+F 6 "TPS54202DDCR" H 13250 5900 50  0001 C CNN "mpn"
 	1    13250 5900
 	1    0    0    -1  
 $EndComp
@@ -2367,6 +2347,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6" H 13250 8000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps54202.pdf" H 13250 8000 50  0001 C CNN
 F 4 "2A" H 13550 8700 50  0000 L CNN "Iout"
 F 5 "12V" H 13550 8800 50  0000 L CNN "Vout"
+F 6 "TPS54202DDCR" H 13250 8000 50  0001 C CNN "mpn"
 	1    13250 8000
 	1    0    0    -1  
 $EndComp
@@ -2547,6 +2528,7 @@ F 0 "U107" H 17000 2000 50  0000 L CNN
 F 1 "MCP23S17" H 17000 1900 50  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm" H 17100 2000 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 17100 1900 50  0001 L CNN
+F 4 "MCP23S17T-E/ML" H 16900 3000 50  0001 C CNN "mpn"
 	1    16900 3000
 	1    0    0    -1  
 $EndComp
@@ -3047,5 +3029,29 @@ F 2 "MountingHole:MountingHole_2.5mm" H 17900 15800 50  0001 C CNN
 F 3 "~" H 17900 15800 50  0001 C CNN
 	1    17900 15800
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J105
+U 1 1 5D4F648E
+P 6350 2400
+F 0 "J105" H 6430 2392 50  0000 L CNN
+F 1 "USB_GPIO" H 6430 2301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6350 2400 50  0001 C CNN
+F 3 "~" H 6350 2400 50  0001 C CNN
+F 4 "DNP" H 6350 2500 50  0000 C CNN "populate"
+	1    6350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L unlockoslo:Conn_UART_5 J102
+U 1 1 5CD096EF
+P 6150 800
+F 0 "J102" V 6200 400 50  0000 C CNN
+F 1 "UART" V 6100 400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6150 800 50  0001 C CNN
+F 3 "~" H 6150 800 50  0001 C CNN
+F 4 "DNP" V 6000 400 50  0000 C CNN "populate"
+	1    6150 800 
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
