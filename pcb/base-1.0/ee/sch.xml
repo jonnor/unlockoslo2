@@ -579,6 +579,10 @@
                     <key>http://purl.org/ee/fact-type/footprint</key>
                     <value>1005</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#C114">
@@ -3974,6 +3978,14 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>PinHeader_1x06_P2.54mm_Vertical</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#populate</key>
+                    <value>DNP</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#J103">
@@ -4079,6 +4091,14 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>PinHeader_1x02_P2.54mm_Vertical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#populate</key>
+                    <value>DNP</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>
@@ -7866,6 +7886,9 @@
                 <schematic-reference>
                     <reference>U102</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>LAN8720A-CP-TR</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -7891,6 +7914,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>LAN8720A-CP-TR</value>
                 </fact>
             </facts>
         </part>
@@ -7965,6 +7992,9 @@
                 <schematic-reference>
                     <reference>U105</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>TPS54202DDCR</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -7999,6 +8029,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Vout</key>
                     <value>3.3V</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>TPS54202DDCR</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#U106">
@@ -8006,6 +8040,9 @@
                 <schematic-reference>
                     <reference>U106</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>TPS54202DDCR</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -8040,6 +8077,10 @@
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Vout</key>
                     <value>12V</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>TPS54202DDCR</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#U107">
@@ -8047,6 +8088,9 @@
                 <schematic-reference>
                     <reference>U107</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>MCP23S17T-E/ML</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -8073,6 +8117,10 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>MCP23S17T-E/ML</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#U201">
@@ -8080,6 +8128,9 @@
                 <schematic-reference>
                     <reference>U201</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>LTC4417CUF#TRPBF</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -8106,6 +8157,10 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>LTC4417CUF#TRPBF</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#U301">
@@ -8113,6 +8168,9 @@
                 <schematic-reference>
                     <reference>U301</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>TPS23754PWPR</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
@@ -8138,6 +8196,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>TPS23754PWPR</value>
                 </fact>
             </facts>
         </part>
@@ -8186,11 +8248,14 @@
                 <schematic-reference>
                     <reference>U303</reference>
                 </schematic-reference>
+                <part-number>
+                    <value>TL431ACDBVR</value>
+                </part-number>
             </references>
             <facts>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>TL431D</value>
+                    <value>TL431DBV</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
@@ -8198,19 +8263,23 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>TL431D</value>
+                    <value>TL431DBV</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</value>
+                    <value>Package_TO_SOT_SMD:SOT-23-5</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>Package_SO</value>
+                    <value>Package_TO_SOT_SMD</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>SOIC-8_3.9x4.9mm_P1.27mm</value>
+                    <value>SOT-23-5</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
+                    <value>TL431ACDBVR</value>
                 </fact>
             </facts>
         </part>
