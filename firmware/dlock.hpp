@@ -6,6 +6,7 @@ namespace doorsystem {
 struct Config {
     float opener_time = 10.0;
     float unlock_time_opener = 5.0;
+    float sensor_update_interval = 60.0;
 };
 
 struct Request {
@@ -143,21 +144,16 @@ next_state(Config config, State current, Inputs inputs) {
         opener = { Opener::Inactive, i.current_time };
     }
 
+    // Door presence sensor
+    auto doorsensor = current.sensor;
+    doorsensor.bolt_sensed = i.bolt_present; // just reflect input 1-1
+    // calculate whether to update status, even though state has not changed
+    if (i.current_time >= doorsensor.last_updated + config.sensor_update_interval) {
+        doorsensor.last_updated = i.current_time;
+    } else {
+        doorsensor.last_updated = doorsensor.last_updated;
+    }
 
-#if 0
-    # Door presence sensor
-    door_update_interval = 60.0
-    bolt_present = i.bolt_present # just reflect input 1-1
-    # calculate whether to update status, even though state has not changed
-    if i.current_time >= current.bolt_present_updated + door_update_interval:
-        door_updated = i.current_time
-    else:
-        door_updated = current.bolt_present_updated
-#endif
-
-    const auto doorsensor = current.sensor;
-
-    // XXX: should be done with a constructor
     const State state = {
         lock,
         opener,
