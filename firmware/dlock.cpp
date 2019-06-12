@@ -5,9 +5,10 @@ int main() {
 
     using namespace dlock::doorsystem;
 
+    Config config;
     Inputs in;
     State state;
 
-    state = next_state(state, in);
+    state = next_state(config, state, in);
 
 }
