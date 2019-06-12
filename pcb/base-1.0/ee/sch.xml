@@ -280,7 +280,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#ESR_max</key>
-                    <value>1Ohm</value>
+                    <value>1 Ω</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
@@ -3789,6 +3789,72 @@
                 </fact>
             </facts>
         </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H105">
+            <references>
+                <schematic-reference>
+                    <reference>H105</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Mechanical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>MountingHole:MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>MountingHole_2.5mm</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H106">
+            <references>
+                <schematic-reference>
+                    <reference>H106</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Mechanical</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>MountingHole:MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>MountingHole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>MountingHole_2.5mm</value>
+                </fact>
+            </facts>
+        </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#J101">
             <references>
                 <schematic-reference>
@@ -4198,7 +4264,7 @@
                     <reference>L303</reference>
                 </schematic-reference>
                 <part-number>
-                    <value>744770122</value>
+                    <value>NRS8040T220MJGJ</value>
                 </part-number>
             </references>
             <facts>
@@ -4216,19 +4282,97 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>744770122:744770122</value>
+                    <value>Inductor_SMD:L_Taiyo-Yuden_NR-80xx</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>744770122</value>
+                    <value>Inductor_SMD</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>744770122</value>
+                    <value>L_Taiyo-Yuden_NR-80xx</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#mpn</key>
-                    <value>744770122</value>
+                    <value>NRS8040T220MJGJ</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#inductor</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT1">
+            <references>
+                <schematic-reference>
+                    <reference>NT1</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>Net-Tie_3</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>Net-Tie_3</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>UnlockOslo:NetTie-3_SMD_Pad0.5mm_132</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>UnlockOslo</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>NetTie-3_SMD_Pad0.5mm_132</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
+            </facts>
+        </part>
+        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT2">
+            <references>
+                <schematic-reference>
+                    <reference>NT2</reference>
+                </schematic-reference>
+            </references>
+            <facts>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
+                    <value>Net-Tie_3</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
+                    <value>Device</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
+                    <value>Net-Tie_3</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
+                    <value>UnlockOslo:NetTie-3_SMD_Pad0.5mm_132</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
+                    <value>UnlockOslo</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
+                    <value>NetTie-3_SMD_Pad0.5mm_132</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
             </facts>
         </part>
@@ -4263,6 +4407,10 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>NetTie-2_SMD_Pad0.15mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT102">
@@ -4295,6 +4443,10 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>NetTie-2_SMD_Pad0.15mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
             </facts>
         </part>
@@ -4329,6 +4481,10 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>NetTie-2_SMD_Pad0.20mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT203">
@@ -4352,7 +4508,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>UnlockOslo:NetTie-2_SMD_Pad0.15mm</value>
+                    <value>UnlockOslo:NetTie-2_SMD_Pad0.20mm</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -4360,73 +4516,11 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-2_SMD_Pad0.15mm</value>
-                </fact>
-            </facts>
-        </part>
-        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT301">
-            <references>
-                <schematic-reference>
-                    <reference>NT301</reference>
-                </schematic-reference>
-            </references>
-            <facts>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>Net-Tie_3</value>
+                    <value>NetTie-2_SMD_Pad0.20mm</value>
                 </fact>
                 <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>Device</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>Net-Tie_3</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>UnlockOslo:NetTie-3_SMD_Pad0.5mm_132</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>UnlockOslo</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-3_SMD_Pad0.5mm_132</value>
-                </fact>
-            </facts>
-        </part>
-        <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT302">
-            <references>
-                <schematic-reference>
-                    <reference>NT302</reference>
-                </schematic-reference>
-            </references>
-            <facts>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#value</key>
-                    <value>Net-Tie_3</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-library</key>
-                    <value>Device</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#symbol-name</key>
-                    <value>Net-Tie_3</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>UnlockOslo:NetTie-3_SMD_Pad0.5mm_132</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
-                    <value>UnlockOslo</value>
-                </fact>
-                <fact>
-                    <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>NetTie-3_SMD_Pad0.5mm_132</value>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
             </facts>
         </part>
@@ -7430,7 +7524,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint</key>
-                    <value>IPC-7351-RESC:RESC_1005x015</value>
+                    <value>IPC-7351-RESC:RESC_3216x040</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-library</key>
@@ -7438,7 +7532,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
-                    <value>RESC_1005x015</value>
+                    <value>RESC_3216x040</value>
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-custom-fact-type#Power</key>
@@ -7450,7 +7544,7 @@
                 </fact>
                 <fact>
                     <key>http://purl.org/ee/fact-type/footprint</key>
-                    <value>1005</value>
+                    <value>3216</value>
                 </fact>
             </facts>
         </part>

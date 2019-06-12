@@ -1,16 +1,16 @@
 #include "digikey.dl"
 
-fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
+add_fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
     fact(part, MOUNTING_TYPE, "Surface Mount"),
     fact(part, CAPACITANCE, _),
     fact(part, SURFACE_MOUNT_LAND_SIZE, x),
     match(".*(8.30mm x 8.30mm).*", x).
 
-fact(part, "http://purl.org/ee/fact-type/footprint", footprint) :-
+add_fact(part, "http://purl.org/ee/fact-type/footprint", footprint) :-
     fact(part, PACKAGE, "TO-236-3, SC-59, SOT-23-3"),
     footprint="SOT-23-3".
 
-fact(part, "http://purl.org/ee/fact-type/footprint", footprint) :-
+add_fact(part, "http://purl.org/ee/fact-type/footprint", footprint) :-
     fact(part, BASE_PART_TYPE, "IRF7324PBF"),
     footprint="SO-8 Single".
 

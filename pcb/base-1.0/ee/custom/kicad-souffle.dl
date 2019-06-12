@@ -28,28 +28,27 @@ kicad_to_ipc(kicad, res) :-
 kicad_to_ipc("L_0805_2012Metric", "2012").
 kicad_to_ipc("L_1206_3216Metric", "3216").
 
-fact(part, "http://purl.org/ee/fact-type/footprint", ipc) :-
+add_fact(part, "http://purl.org/ee/fact-type/footprint", ipc) :-
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", footprint),
     kicad_to_ipc(footprint, ipc).
 
-fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
+add_fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=8cm") :-
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint", footprint),
     (footprint="Capacitor_SMD:CP_Elec_8x10.2").
 
-fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=5cm") :-
+add_fact(part, "http://purl.org/ee/fact-type/footprint", "smd capacitor d=5cm") :-
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint", footprint),
     (footprint="Capacitor_SMD:CP_Elec_5x5.4").
 
-fact(part, "http://purl.org/ee/fact-type/footprint", common) :-
+add_fact(part, "http://purl.org/ee/fact-type/footprint", common) :-
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-library", library),
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", name),
     kicad_footprint_to_common(library, name, common).
-/*
+
 .decl skip_order(ref:symbol)
 
 skip_order(Ref) :- net_tie(Ref).
 //    fact(Ref, "http://purl.org/ee/fact-type/ee-component-type", "http://purl.org/ee/part-type#net-tie").
 
-fact(Part, "http://purl.org/ee/fact-type/order-part", "no") :- skip_order(Part).
-fact(Part, "http://purl.org/ee/fact-type/skip-from-order", "yes") :- part(Part, _), !skip_order(Part).
-*/
+add_fact(Part, "http://purl.org/ee/fact-type/order-part", "no") :- skip_order(Part).
+add_fact(Part, "http://purl.org/ee/fact-type/skip-from-order", "yes") :- part(Part, _), !skip_order(Part).
