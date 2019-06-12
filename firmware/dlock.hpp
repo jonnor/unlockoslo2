@@ -75,8 +75,7 @@ struct State {
 };
 
 
-Lock ensure_unlocked_for_opener(Opener opener, Lock lock, Inputs i, float duration) {
-//   assert opener.state in ('Active', 'TemporarilyActive')
+Lock ensure_unlocked_for_opener(Opener opener, Inputs i, Lock lock, float duration) {
     const bool opener_active = opener.state == Opener::Active or opener.state == Opener::TemporarilyActive;
     const bool door_locked = lock.state == Lock::Locked or lock.state == Lock::TemporarilyUnlocked;
 
@@ -126,27 +125,26 @@ next_state(Config config, State current, Inputs inputs) {
 
     // Door opener buttons
     auto opener = current.opener;
-    // 
-   
-#if 0
-    # inside button
-    if opener.state in ('Inactive','TemporarilyActive') and i.openbutton_inside == True:
-        opener = TemporarilyActive(since=i.current_time, until=i.current_time+config.opener_time)
+    // inside button
+    if ((opener.state == Opener::Inactive or opener.state == Opener::TemporarilyActive) and i.openbutton_inside) {
+        opener = { Opener::TemporarilyActive, i.current_time, i.current_time+config.opener_time };
         lock = ensure_unlocked_for_opener(opener, inputs, lock, config.unlock_time_opener);
 
-    # outside button
-    elif opener.state in ('Inactive','TemporarilyActive') and i.openbutton_outside == True:
-        if lock.state in ('Unlocked', 'TemporarilyUnlocked'):
-            opener = TemporarilyActive(since=i.current_time, until=i.current_time+config.opener_time)
-        else:
-            # DENY. user is outside, door is locked, have to unlock using app first
-            pass
+    // outside button
+    } else if ((opener.state == Opener::Inactive or opener.state == Opener::TemporarilyActive) and i.openbutton_inside) {
+        if ( lock.state == Lock::Unlocked or lock.state == Lock::TemporarilyUnlocked) {
+            opener = { Opener::TemporarilyActive, i.current_time, i.current_time+config.opener_time };
+        } else {
+            // DENY. user is outside, door is locked, have to unlock using app first
+        }
+   
+    // turn off again
+    } else if (opener.state == Opener::TemporarilyActive and i.current_time >= opener.until) {
+        opener = { Opener::Inactive, i.current_time };
+    }
 
-    # shut off again
-    elif opener.state == 'TemporarilyActive' and i.current_time >= opener.until:
-        opener = Inactive(since=i.current_time)
 
-
+#if 0
     # Door presence sensor
     door_update_interval = 60.0
     bolt_present = i.bolt_present # just reflect input 1-1
