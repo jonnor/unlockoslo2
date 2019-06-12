@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 150  -50  0    50   ~ 0
-TODO:\n  * LED polarities\n* ORing\n  * Add valid LEDs. Note that they're biased against Vout.\n* Adjust DC/DC for 12 V.\n* Test points:\n  * Power in\n  * Important data signals\n* Connectors\n  * UEXT (x2?)\n* Check footprints of all parts\n  * footprint\n  * pins\n* Move to IPC footprint library.\n
+TODO:\n  * LED polarities\n* ORing\n  * Add valid LEDs. Note that they're biased against Vout.\n* Adjust DC/DC for 12 V.\n* Test points:\n  * Power in\n  * Important data signals\n* Connectors\n  * UEXT (x2?)\n* Check footprints of all parts\n  * footprint\n  * pins\n
 Text Notes 800  800  0    60   ~ 12
 USB to UART interface
 Text Notes 3700 850  2    50   ~ 0
