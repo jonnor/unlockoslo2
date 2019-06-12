@@ -3688,6 +3688,14 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>MountingHole_2.5mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#mounting-hole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H102">
@@ -3720,6 +3728,14 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#mounting-hole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>
@@ -3754,6 +3770,14 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>MountingHole_2.5mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#mounting-hole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H104">
@@ -3786,6 +3810,14 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#mounting-hole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>
@@ -3820,6 +3852,14 @@
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>MountingHole_2.5mm</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#mounting-hole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#H106">
@@ -3852,6 +3892,14 @@
                 <fact>
                     <key>http://purl.org/ee/kicad-sch-fact-type#footprint-name</key>
                     <value>MountingHole_2.5mm</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/ee-component-type</key>
+                    <value>http://purl.org/ee/part-type#mounting-hole</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>
@@ -4337,6 +4385,10 @@
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT2">
@@ -4373,6 +4425,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>
@@ -4411,6 +4467,10 @@
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT102">
@@ -4447,6 +4507,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>
@@ -4485,6 +4549,10 @@
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#net-tie</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#NT203">
@@ -4521,6 +4589,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#net-tie</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>
@@ -7616,6 +7688,10 @@
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#test-point</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#TP102">
@@ -7657,6 +7733,10 @@
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#test-point</value>
                 </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
+                </fact>
             </facts>
         </part>
         <part uri="http://purl.org/trygvis/ee/project/93b46751-0f9d-4120-807c-fc69c9318668#TP103">
@@ -7697,6 +7777,10 @@
                 <fact>
                     <key>http://purl.org/ee/fact-type/ee-component-type</key>
                     <value>http://purl.org/ee/part-type#test-point</value>
+                </fact>
+                <fact>
+                    <key>http://purl.org/ee/fact-type/include-in-bom</key>
+                    <value>no</value>
                 </fact>
             </facts>
         </part>

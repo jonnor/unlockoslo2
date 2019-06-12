@@ -45,10 +45,13 @@ add_fact(part, "http://purl.org/ee/fact-type/footprint", common) :-
     fact(part, "http://purl.org/ee/kicad-sch-fact-type#footprint-name", name),
     kicad_footprint_to_common(library, name, common).
 
-.decl skip_order(ref:symbol)
+.decl skip_from_bom(ref:symbol)
 
-skip_order(Ref) :- net_tie(Ref).
-//    fact(Ref, "http://purl.org/ee/fact-type/ee-component-type", "http://purl.org/ee/part-type#net-tie").
+// Parts from the schematic that is not really a part of the BOM.
+skip_from_bom(Ref) :-
+    net_tie(Ref);
+    test_point(Ref);
+    mounting_hole(Ref).
 
-add_fact(Part, "http://purl.org/ee/fact-type/order-part", "no") :- skip_order(Part).
-add_fact(Part, "http://purl.org/ee/fact-type/skip-from-order", "yes") :- part(Part, _), !skip_order(Part).
+add_fact(Part, "http://purl.org/ee/fact-type/include-in-bom", "no") :- skip_from_bom(Part).
+// add_fact(Part, "http://purl.org/ee/fact-type/schematic-only", "no") :- part(Part, _), !skip_from_bom(Part).
