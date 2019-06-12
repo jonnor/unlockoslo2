@@ -5,6 +5,7 @@ namespace doorsystem {
 
 struct Config {
     float opener_time = 10.0;
+    float unlock_time_opener = 5.0;
 };
 
 struct Request {
@@ -28,39 +29,72 @@ struct Inputs {
      float current_time = 0.0f;
 };
 
-enum class OpenerState {
-    Inactive,
-    Active,
-    TemporarilyActive,
-};
 
+// Lock of the door (electronic latch)
 struct Lock {
     enum State {
         Unlocked,
         Locked,
         TemporarilyUnlocked,
     };
-    
+    enum Reason {
+        Unknown,
+        ProgramSwitch,
+    };
+
     State state = Locked; // default safe
+    float since = 0.0;
+    float until = -1.0;
+    Reason reason = Unknown;
+};
+
+// Automatic door opener (actuated arm)
+struct Opener {
+    enum State {
+        Inactive,
+        Active,
+        TemporarilyActive,
+    };
+
+    State state = Inactive; // default safe
     float since = 0.0;
     float until = -1.0;
 };
 
+// Sensor(s) on the door
+struct DoorSensor {
+    bool bolt_sensed = false;
+    float last_updated = 0.0;
+};
+
 struct State {
      Lock lock;
-     OpenerState opener = OpenerState::Inactive;
-     bool bolt_present = false;
-     float bolt_present_updated = 0.0;
+     Opener opener;
+     DoorSensor sensor;
      bool connected_light = false;
 };
 
+
+Lock ensure_unlocked_for_opener(Opener opener, Lock lock, Inputs i, float duration) {
+//   assert opener.state in ('Active', 'TemporarilyActive')
+    const bool opener_active = opener.state == Opener::Active or opener.state == Opener::TemporarilyActive;
+    const bool door_locked = lock.state == Lock::Locked or lock.state == Lock::TemporarilyUnlocked;
+
+    if (opener_active and door_locked) {
+        // Unlock the door to allow opener to work
+        lock = { Lock::TemporarilyUnlocked, i.current_time, i.current_time+duration };
+    } else {
+        // no change
+    }
+    return lock;
+}
 
 State
 next_state(Config config, State current, Inputs inputs) {
     const auto i = inputs;
 
     // Doorlock
-    Lock lock;
+    Lock lock = current.lock;
 
     // Requests for change (normally via MQTT)
     switch (i.request.action) {
@@ -83,33 +117,27 @@ next_state(Config config, State current, Inputs inputs) {
         lock = { Lock::Locked, i.current_time };
     }
 
+    // Program switch, sets normally unlocked as override
+    if (i.holdopen_button) {
+        lock = { Lock::Unlocked, i.current_time, -1.0, Lock::ProgramSwitch };
+    } else if (not i.holdopen_button and lock.state == Lock::Unlocked and lock.reason == Lock::ProgramSwitch) {
+        lock = { Lock::Locked, i.current_time, -1.0, Lock::ProgramSwitch };
+    }
+
+    // Door opener buttons
+    auto opener = current.opener;
+    // 
+   
 #if 0
-    # Opener
-    opener = current.opener
-    opener_time = 10
-
-    def ensure_unlocked_for_opener():
-        assert opener.state in ('Active', 'TemporarilyActive')
-        temp_unlock_time = 5
-        nonlocal lock
-        if lock.state in ('Locked', 'TemporarilyUnlocked'):
-            lock = TemporarilyUnlocked(since=i.current_time, until=i.current_time+temp_unlock_time)
-
-    # unlock switch
-    if i.holdopen_button == True:
-        lock = Unlocked(since=i.current_time, reason='switch')
-    elif i.holdopen_button == False and lock.state == 'Unlocked' and lock.reason == 'switch':
-        lock = Locked(since=i.current_time, reason='switch') 
-
     # inside button
     if opener.state in ('Inactive','TemporarilyActive') and i.openbutton_inside == True:
-        opener = TemporarilyActive(since=i.current_time, until=i.current_time+opener_time)
-        ensure_unlocked_for_opener()
+        opener = TemporarilyActive(since=i.current_time, until=i.current_time+config.opener_time)
+        lock = ensure_unlocked_for_opener(opener, inputs, lock, config.unlock_time_opener);
 
     # outside button
     elif opener.state in ('Inactive','TemporarilyActive') and i.openbutton_outside == True:
         if lock.state in ('Unlocked', 'TemporarilyUnlocked'):
-            opener = TemporarilyActive(since=i.current_time, until=i.current_time+opener_time)
+            opener = TemporarilyActive(since=i.current_time, until=i.current_time+config.opener_time)
         else:
             # DENY. user is outside, door is locked, have to unlock using app first
             pass
@@ -129,10 +157,15 @@ next_state(Config config, State current, Inputs inputs) {
         door_updated = current.bolt_present_updated
 #endif
 
-    // XXX: should be done with a constructor
-    State state;
-    state.lock = lock;
+    const auto doorsensor = current.sensor;
 
+    // XXX: should be done with a constructor
+    const State state = {
+        lock,
+        opener,
+        doorsensor,
+        inputs.mqtt_connected,
+    };
     return state;
 }
 
